@@ -1,0 +1,736 @@
+.grid-system {
+    color: $white;
+    margin-top: 62px;
+    margin-bottom: 100px;
+    &-title {
+        font-size: 128px;
+        letter-spacing: 7.68px;
+        font-weight: $fontWeightBold;
+        width: 1004px;
+        margin: auto;
+    }
+    .lg-display {
+        &-title {
+            font-size: 40px;
+            font-weight: $fontWeightBold;
+            letter-spacing: 2.4px;
+            width: 1004px;
+            margin: auto;
+            padding: 20px 0;
+        }
+        &-sub-title {
+            font-size: 32px;
+            font-weight: $fontWeightBold;
+            letter-spacing: 1.92px;
+            width: 1004px;
+            margin: auto;
+            padding: 10px 0;
+        }
+        .lg-type-1 {
+            padding: 20px 0;
+            &-title {
+                font-size: 24px;
+                font-weight: $fontWeightBold;
+                letter-spacing: 1.44px;
+                width: 1004px;
+                margin: auto;
+                padding: 20px 0;
+            }
+            .wrap-container {
+                width: 1280px;
+                height: 800px;
+                border: 1px solid $white;
+                border-radius: 4px;
+                margin: auto;
+                @include flex(row);
+                .sidebar {
+                    width: 105px;
+                    height: 800px;
+                    border: 2px solid $white;
+                    background-color: $sidebarFill;
+                    border-radius: 4px;
+                }
+                .grid-main {
+                    display: grid;
+                    grid-template-rows: repeat(6, 100px);
+                    grid-template-columns: repeat(24, auto);
+                    grid-gap: 15px;
+                    width: 1139px;
+                    height: 680px;
+                    margin: auto;
+                    .grid-container-1 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 24;
+                    }
+                    .grid-container-2 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 12;
+                    }
+                    .grid-container-3 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 12;
+                    }
+                    .grid-container-4 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 8;
+                    }
+                    .grid-container-5 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 8;
+                    }
+                    .grid-container-6 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 8;
+                    }
+                    .grid-container-7 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-8 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-9 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-10 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-11 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-12 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-13 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-14 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-15 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-16 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-17 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-18 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-19 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-20 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-21 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-22 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-23 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-24 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                }
+            }
+        }
+        .lg-type-2 {
+            padding: 20px 0;
+            &-title {
+                padding: 20px 0;
+                width: 1004px;
+                margin: auto;
+            }
+            .wrap-container {
+                width: 1280px;
+                height: 800px;
+                border: 1px solid $white;
+                margin: auto;
+                border-radius: 4px;
+                @include flex(row);
+                .sidebar {
+                    width: 210px;
+                    height: 800px;
+                    border: 2px solid $white;
+                    border-radius: 4px;
+                    background-color: $sidebarFill;
+                }
+                .grid-main {
+                    display: grid;
+                    grid-template-rows: repeat(6, 100px);
+                    grid-template-columns: repeat(24, auto);
+                    grid-gap: 15px;
+                    width: 1034px;
+                    height: 680px;
+                    margin: auto;
+                    .grid-container-1 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 24;
+                    }
+                    .grid-container-2 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 12;
+                    }
+                    .grid-container-3 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 12;
+                    }
+                    .grid-container-4 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 8;
+                    }
+                    .grid-container-5 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 8;
+                    }
+                    .grid-container-6 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 8;
+                    }
+                    .grid-container-7 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-8 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-9 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-10 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-11 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-12 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-13 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-14 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-15 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-16 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-17 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-18 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-19 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-20 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-21 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-22 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-23 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-24 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                }
+            }
+        }
+        .lg-type-3 {
+            padding: 20px 0;
+            &-title {
+                padding: 20px 0;
+                width: 1004px;
+                margin: auto;
+            }
+            .wrap-container {
+                width: 1280px;
+                height: 800px;
+                border: 1px solid $white;
+                margin: auto;
+                border-radius: 4px;
+                @include flex(row);
+                .sidebar {
+                    width: 315px;
+                    height: 800px;
+                    border: 2px solid $white;
+                    border-radius: 4px;
+                    background-color: $sidebarFill;
+                }
+                .grid-main {
+                    display: grid;
+                    grid-template-rows: repeat(6, 100px);
+                    grid-template-columns: repeat(24, auto);
+                    grid-gap: 15px;
+                    width: 929px;
+                    height: 680px;
+                    margin: auto;
+                    .grid-container-1 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 24;
+                    }
+                    .grid-container-2 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 12;
+                    }
+                    .grid-container-3 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 12;
+                    }
+                    .grid-container-4 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 8;
+                    }
+                    .grid-container-5 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 8;
+                    }
+                    .grid-container-6 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 8;
+                    }
+                    .grid-container-7 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-8 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-9 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-10 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-11 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-12 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-13 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-14 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-15 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-16 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-17 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-18 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-19 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-20 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-21 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-22 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-23 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-24 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                }
+            }
+        }
+    }
+    .md-display {
+        margin-top: 20px;
+        &-title {
+            font-size: 40px;
+            font-weight: $fontWeightBold;
+            padding: 20px 0;
+            letter-spacing: 2.4px;
+            width: 1004px;
+            margin: auto;
+        }
+        &-sub-title {
+            font-size: 32px;
+            letter-spacing: 1.92px;
+            font-weight: $fontWeightBold;
+            padding: 10px 0;
+            width: 1004px;
+            margin: auto;
+        }
+        .md-type-1 {
+            padding: 20px 0;
+            &-title {
+                font-size: 24px;
+                font-weight: $fontWeightBold;
+                padding: 20px 0;
+                width: 1004px;
+                margin: auto;
+            }
+            .wrap-container {
+                width: 1024px;
+                height: 633px;
+                margin: auto;
+                border: 1px solid $white;
+                border-radius: 4px;
+                @include flex(row);
+                .sidebar {
+                    width: 126px;
+                    height: 633px;
+                    border: 2px solid $white;
+                    border-radius: 4px;
+                    background-color: $sidebarFill;
+                }
+                .grid-main {
+                    display: grid;
+                    grid-template-rows: repeat(5, 100px);
+                    grid-template-columns: repeat(12, auto);
+                    grid-gap: 15px;
+                    width: 866px;
+                    height: 564px;
+                    margin: auto;
+                    .grid-container-1 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 12;
+                    }
+                    .grid-container-2 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-3 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-4 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-5 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-6 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-7 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-8 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-9 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-10 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-11 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 2;
+                    }
+                    .grid-container-12 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 2;
+                    }
+                    .grid-container-13 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 2;
+                    }
+                    .grid-container-14 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 2;
+                    }
+                    .grid-container-15 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 2;
+                    }
+                    .grid-container-16 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 2;
+                    }
+                }
+            }
+        }
+        .md-type-2 {
+            padding: 20px 0;
+            &-title {
+                font-size: 24px;
+                font-weight: $fontWeightBold;
+                padding: 20px 0;
+                width: 1004px;
+                margin: auto;
+            }
+            .wrap-container {
+                width: 1024px;
+                height: 633px;
+                margin: auto;
+                border: 1px solid $white;
+                border-radius: 4px;
+                @include flex(row);
+                .sidebar {
+                    width: 252px;
+                    height: 633px;
+                    border: 2px solid $white;
+                    border-radius: 4px;
+                    background-color: $sidebarFill;
+                }
+                .grid-main {
+                    display: grid;
+                    grid-template-rows: repeat(5, 100px);
+                    grid-template-columns: repeat(12, auto);
+                    grid-gap: 15px;
+                    width: 740px;
+                    height: 564px;
+                    margin: auto;
+                    .grid-container-1 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 12;
+                    }
+                    .grid-container-2 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-3 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 6;
+                    }
+                    .grid-container-4 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-5 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-6 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 4;
+                    }
+                    .grid-container-7 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-8 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-9 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-10 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 3;
+                    }
+                    .grid-container-11 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 2;
+                    }
+                    .grid-container-12 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 2;
+                    }
+                    .grid-container-13 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 2;
+                    }
+                    .grid-container-14 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 2;
+                    }
+                    .grid-container-15 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 2;
+                    }
+                    .grid-container-16 {
+                        background-color: $gridFill;
+                        border-radius: 4px;
+                        grid-column: span 2;
+                    }
+                }    
+            }
+        }
+    }
+}

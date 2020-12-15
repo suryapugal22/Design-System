@@ -1,0 +1,1114 @@
+.color-palatte {
+    margin-top: 64px;
+    margin-bottom: 100px;
+    color: $white;
+    &-title {
+        color: $white;
+        font-size: 128px;
+        font-weight: $fontWeightBold;
+    }
+    .color-model {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto;
+        grid-gap: 60px 0px;
+        margin: 80px 0;
+        .gray-color-1 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #F7FAFC;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .gray-color-2 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #EDF2F7;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .gray-color-3 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #E2E8F0;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .gray-color-4 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #CBD5E0;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .gray-color-5 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #A0AEC0;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .gray-color-6 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #718096;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .gray-color-7 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #4A5568;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .gray-color-8 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #2D3748;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .gray-color-9 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #1A202C;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+
+
+        .red-color-1 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #FFF5F5;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .red-color-2 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #FED7D7;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .red-color-3 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #FEB2B2;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .red-color-4 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #FC8181;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .red-color-5 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #F56565;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .red-color-6 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #E53E3E;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .red-color-7 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #C53030;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .red-color-8 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #9B2C2C;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .red-color-9 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #742A2A;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+
+
+        .orange-color-1 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #FFFAF0;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .orange-color-2 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #FEEBC8;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .orange-color-3 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #FBD38D;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .orange-color-4 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #F6AD55;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .orange-color-5 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #ED8936;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .orange-color-6 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #DD6B20;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .orange-color-7 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #C05621;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .orange-color-8 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #9C4221;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+        .orange-color-9 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #7B341E;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyArial;
+            }
+        }
+
+
+        .yellow-color-1 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #FFFFF0;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .yellow-color-2 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #FEFCBF;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .yellow-color-3 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #FAF089;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .yellow-color-4 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #F6E05E;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .yellow-color-5 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #ECC94B;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .yellow-color-6 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #D69E2E;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .yellow-color-7 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #B7791F;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .yellow-color-8 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #975A16;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .yellow-color-9 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #744210;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+
+
+        .green-color-1 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #F0FFF4;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .green-color-2 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #C6F6D5;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .green-color-3 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #9AE6B4;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .green-color-4 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #68D391;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .green-color-5 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #48BB78;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .green-color-6 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #38A169;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .green-color-7 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #2F855A;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .green-color-8 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #276749;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .green-color-9 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #22543D;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+
+
+        .teal-color-1 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #E6FFFA;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .teal-color-2 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #B2F5EA;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .teal-color-3 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #81E6D9;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .teal-color-4 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #4FD1C5;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .teal-color-5 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #38B2AC;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .teal-color-6 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #319795;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .teal-color-7 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #2C7A7B;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .teal-color-8 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #285E61;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .teal-color-9 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #234E52;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+
+
+        .blue-color-1 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #EBF8FF;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .blue-color-2 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #BEE3F8;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .blue-color-3 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #90CDF4;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .blue-color-4 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #63B3ED;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .blue-color-5 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #4299E1;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .blue-color-6 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #3182CE;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .blue-color-7 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #2B6CB0;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .blue-color-8 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #2C5282;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .blue-color-9 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #2A4365;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+
+
+        .indigo-color-1 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #EBF4FF;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .indigo-color-2 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #C3DAFE;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .indigo-color-3 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #A3BFFA;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .indigo-color-4 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #7F9CF5;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .indigo-color-5 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #667EEA;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .indigo-color-6 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #5A67D8;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .indigo-color-7 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #4C51BF;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .indigo-color-8 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #434190;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .indigo-color-9 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #3C366B;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+
+
+        .purple-color-1 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #FAF5FF;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .purple-color-2 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #E9D8FD;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .purple-color-3 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #D6BCFA;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .purple-color-4 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #B794F4;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .purple-color-5 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #9F7AEA;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .purple-color-6 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #805AD5;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .purple-color-7 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #6B46C1;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .purple-color-8 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #553C9A;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .purple-color-9 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #44337A;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+
+
+        .pink-color-1 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #FFF5F7;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .pink-color-2 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #FED7E2;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .pink-color-3 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #FBB6CE;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .pink-color-4 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #F687B3;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .pink-color-5 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #ED64A6;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .pink-color-6 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #D53F8C;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .pink-color-7 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #B83280;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .pink-color-8 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #97266D;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+        .pink-color-9 {
+            .color-fill {
+                width: 111px;
+                height: 90px;
+                background-color: #702459;
+            }
+            .color-name {
+                padding: 10px;
+                font-size: 12px;
+                font-family: $familyLato;
+            }
+        }
+    }
+}

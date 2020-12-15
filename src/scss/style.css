@@ -1,0 +1,2667 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #000000;
+}
+
+.container {
+  width: 1004px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ads {
+  color: #FFFFFE;
+  margin-top: 161px;
+  margin-bottom: 100px;
+}
+
+.ads-title {
+  font-size: 40px;
+  letter-spacing: 0.64px;
+}
+
+.ads-title span {
+  font-size: 128px;
+  letter-spacing: 2.05px;
+  color: #000000;
+  font-weight: normal;
+  text-shadow: -2.5px -2.5px 0 #FFFFFE, 0 -2.5px 0 #FFFFFE, 2.5px -2.5px 0 #FFFFFE, 2.5px 0 0 #FFFFFE, 2.5px 2.5px 0 #FFFFFE, 0 2.5px 0 #FFFFFE, -2.5px 2.5px 0 #FFFFFE, -2.5px 0 0 #FFFFFE;
+}
+
+.ads .design-title {
+  font-size: 40px;
+  font-weight: normal;
+  padding: 10px 0;
+}
+
+.ads .design-sub-title {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+.ads .design-text {
+  font-weight: 300;
+  width: 1004px;
+  height: 173px;
+  font-size: 32px;
+  letter-spacing: 0.51px;
+  line-height: 44.7px;
+  margin: 15px 0;
+}
+
+.typography {
+  color: #FFFFFE;
+  margin-top: 47px;
+  margin-bottom: 100px;
+}
+
+.typography-title {
+  font-size: 128px;
+  font-weight: normal;
+}
+
+.typography-hero .hero-hint {
+  font-size: 32px;
+  font-weight: 300;
+  padding: 30px 0;
+}
+
+.typography-hero .hero-title {
+  font-size: 40px;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.typography-hero .hero-text {
+  font-size: 32px;
+  width: 1004px;
+  font-weight: 300;
+  letter-spacing: 0.51px;
+  line-height: 44.79px;
+  padding: 20px 0;
+}
+
+.typography-hero .hero-link {
+  width: 1004px;
+  display: block;
+  letter-spacing: 0.96px;
+  color: #FFFFFE;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.typography-hero .scroll-down {
+  text-align: center;
+  font-size: 20px;
+}
+
+.typography-hero .scroll-down a {
+  display: block;
+  color: #FFFFFE;
+  font-size: 12px;
+}
+
+.typography-hero .scroll-down i {
+  padding: 10px;
+}
+
+.typography .heading-title {
+  font-size: 60px;
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+.typography .heading-1-align-model {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 28.83px;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 10px;
+}
+
+.typography .heading-1-align-model .left-align {
+  text-align: left;
+}
+
+.typography .heading-1-align-model .left-align-title, .typography .heading-1-align-model .center-align-title, .typography .heading-1-align-model .right-align-title {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 25px 0;
+}
+
+.typography .heading-1-align-model .left-align .h1-name {
+  font-size: 32px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.typography .heading-1-align-model .left-align-text-bold, .typography .heading-1-align-model .center-align-text-bold, .typography .heading-1-align-model .right-align-text-bold, .typography .heading-1-align-model .heading .paragraph-align-model .center-align-text-bold, .typography .heading .paragraph-align-model .heading-1-align-model .center-align-text-bold, .typography .heading-1-align-model .heading .paragraph-align-model .right-align-text-bold, .typography .heading .paragraph-align-model .heading-1-align-model .right-align-text-bold, .typography .heading-1-align-model .heading .small-align-model .center-align-text-bold, .typography .heading .small-align-model .heading-1-align-model .center-align-text-bold, .typography .heading-1-align-model .heading .small-align-model .right-align-text-bold, .typography .heading .small-align-model .heading-1-align-model .right-align-text-bold, .typography .heading-1-align-model .heading .tiny-align-model .center-align-text-bold, .typography .heading .tiny-align-model .heading-1-align-model .center-align-text-bold, .typography .heading-1-align-model .heading .tiny-align-model .right-align-text-bold, .typography .heading .tiny-align-model .heading-1-align-model .right-align-text-bold {
+  width: 324px;
+  letter-spacing: 1.73px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.typography .heading-1-align-model .left-align-text-normal, .typography .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .right-align-text-normal, .typography .heading-1-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-1-align-model .right-align-text-normal, .typography .heading-1-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-1-align-model .right-align-text-normal, .typography .heading-1-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-1-align-model .right-align-text-normal, .typography .heading-1-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-1-align-model .right-align-text-lighter {
+  width: 324px;
+  letter-spacing: 1.73px;
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+.typography .heading-1-align-model .left-align-text-lighter, .typography .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-1-align-model .center-align-text-lighter {
+  width: 324px;
+  letter-spacing: 1.73px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.typography .heading-1-align-model .center-align {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.typography .heading-1-align-model .center-align-text-bold {
+  width: 324px;
+  padding-top: 100px;
+}
+
+.typography .heading-1-align-model .center-align-text-normal {
+  width: 324px;
+}
+
+.typography .heading-1-align-model .center-align-text-lighter {
+  width: 324px;
+}
+
+.typography .heading-1-align-model .right-align {
+  text-align: right;
+}
+
+.typography .heading-1-align-model .right-align-text-bold {
+  width: 324px;
+  padding-top: 100px;
+}
+
+.typography .heading-1-align-model .right-align-text-normal {
+  width: 324px;
+}
+
+.typography .heading-1-align-model .right-align-text-lighter {
+  width: 324px;
+}
+
+.typography .heading-2-align-model {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 10px;
+}
+
+.typography .heading-2-align-model .left-align {
+  text-align: left;
+}
+
+.typography .heading-2-align-model .left-align .h2-name {
+  font-size: 32px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.typography .heading-2-align-model .left-align-text-bold, .typography .heading-2-align-model .center-align-text-bold, .typography .heading-2-align-model .right-align-text-bold, .typography .heading-2-align-model .heading .paragraph-align-model .center-align-text-bold, .typography .heading .paragraph-align-model .heading-2-align-model .center-align-text-bold, .typography .heading-2-align-model .heading .paragraph-align-model .right-align-text-bold, .typography .heading .paragraph-align-model .heading-2-align-model .right-align-text-bold, .typography .heading-2-align-model .heading .small-align-model .center-align-text-bold, .typography .heading .small-align-model .heading-2-align-model .center-align-text-bold, .typography .heading-2-align-model .heading .small-align-model .right-align-text-bold, .typography .heading .small-align-model .heading-2-align-model .right-align-text-bold, .typography .heading-2-align-model .heading .tiny-align-model .center-align-text-bold, .typography .heading .tiny-align-model .heading-2-align-model .center-align-text-bold, .typography .heading-2-align-model .heading .tiny-align-model .right-align-text-bold, .typography .heading .tiny-align-model .heading-2-align-model .right-align-text-bold {
+  width: 324px;
+  font-size: 25.63px;
+  letter-spacing: 1.54px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.typography .heading-2-align-model .left-align-text-normal, .typography .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .right-align-text-normal, .typography .heading-2-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-2-align-model .right-align-text-normal, .typography .heading-2-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-2-align-model .right-align-text-normal, .typography .heading-2-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-2-align-model .right-align-text-normal, .typography .heading-2-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-2-align-model .right-align-text-lighter {
+  width: 324px;
+  font-size: 25.63px;
+  letter-spacing: 1.54px;
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+.typography .heading-2-align-model .left-align-text-lighter, .typography .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-2-align-model .center-align-text-lighter {
+  width: 324px;
+  font-size: 25.63px;
+  letter-spacing: 1.54px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.typography .heading-2-align-model .center-align {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.typography .heading-2-align-model .center-align-text-bold {
+  padding-top: 100px;
+}
+
+.typography .heading-2-align-model .right-align {
+  text-align: right;
+}
+
+.typography .heading-2-align-model .right-align-text-bold {
+  padding-top: 100px;
+}
+
+.typography .heading-3-align-model {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 10px;
+}
+
+.typography .heading-3-align-model .left-align {
+  text-align: left;
+}
+
+.typography .heading-3-align-model .left-align .h3-name {
+  font-size: 32px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.typography .heading-3-align-model .left-align-text-bold, .typography .heading-3-align-model .center-align-text-bold, .typography .heading-3-align-model .right-align-text-bold, .typography .heading-3-align-model .heading .paragraph-align-model .center-align-text-bold, .typography .heading .paragraph-align-model .heading-3-align-model .center-align-text-bold, .typography .heading-3-align-model .heading .paragraph-align-model .right-align-text-bold, .typography .heading .paragraph-align-model .heading-3-align-model .right-align-text-bold, .typography .heading-3-align-model .heading .small-align-model .center-align-text-bold, .typography .heading .small-align-model .heading-3-align-model .center-align-text-bold, .typography .heading-3-align-model .heading .small-align-model .right-align-text-bold, .typography .heading .small-align-model .heading-3-align-model .right-align-text-bold, .typography .heading-3-align-model .heading .tiny-align-model .center-align-text-bold, .typography .heading .tiny-align-model .heading-3-align-model .center-align-text-bold, .typography .heading-3-align-model .heading .tiny-align-model .right-align-text-bold, .typography .heading .tiny-align-model .heading-3-align-model .right-align-text-bold {
+  font-size: 22.78px;
+  font-weight: 600;
+  padding: 20px 0;
+  letter-spacing: 1.37px;
+  width: 324px;
+}
+
+.typography .heading-3-align-model .left-align-text-normal, .typography .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .right-align-text-normal, .typography .heading-3-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-3-align-model .right-align-text-normal, .typography .heading-3-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-3-align-model .right-align-text-normal, .typography .heading-3-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-3-align-model .right-align-text-normal, .typography .heading-3-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-3-align-model .right-align-text-lighter {
+  font-size: 22.78px;
+  font-weight: normal;
+  padding: 20px 0;
+  letter-spacing: 1.37px;
+  width: 324px;
+}
+
+.typography .heading-3-align-model .left-align-text-lighter, .typography .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-3-align-model .center-align-text-lighter {
+  font-size: 22.78px;
+  font-weight: 300;
+  padding: 20px 0;
+  letter-spacing: 1.37px;
+  width: 324px;
+}
+
+.typography .heading-3-align-model .center-align {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.typography .heading-3-align-model .center-align-text-bold {
+  padding-top: 100px;
+}
+
+.typography .heading-3-align-model .right-align {
+  text-align: right;
+}
+
+.typography .heading-3-align-model .right-align-text-bold {
+  padding-top: 100px;
+}
+
+.typography .heading-4-align-model {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.typography .heading-4-align-model .left-align .h4-name {
+  font-size: 32px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.typography .heading-4-align-model .left-align-text-bold, .typography .heading-4-align-model .center-align-text-bold, .typography .heading-4-align-model .right-align-text-bold, .typography .heading-4-align-model .heading .paragraph-align-model .center-align-text-bold, .typography .heading .paragraph-align-model .heading-4-align-model .center-align-text-bold, .typography .heading-4-align-model .heading .paragraph-align-model .right-align-text-bold, .typography .heading .paragraph-align-model .heading-4-align-model .right-align-text-bold, .typography .heading-4-align-model .heading .small-align-model .center-align-text-bold, .typography .heading .small-align-model .heading-4-align-model .center-align-text-bold, .typography .heading-4-align-model .heading .small-align-model .right-align-text-bold, .typography .heading .small-align-model .heading-4-align-model .right-align-text-bold, .typography .heading-4-align-model .heading .tiny-align-model .center-align-text-bold, .typography .heading .tiny-align-model .heading-4-align-model .center-align-text-bold, .typography .heading-4-align-model .heading .tiny-align-model .right-align-text-bold, .typography .heading .tiny-align-model .heading-4-align-model .right-align-text-bold {
+  font-size: 20.25px;
+  font-weight: 600;
+  letter-spacing: 1.22px;
+  padding: 20px 0;
+  width: 324px;
+}
+
+.typography .heading-4-align-model .left-align-text-normal, .typography .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .right-align-text-normal, .typography .heading-4-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-4-align-model .right-align-text-normal, .typography .heading-4-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-4-align-model .right-align-text-normal, .typography .heading-4-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-4-align-model .right-align-text-normal, .typography .heading-4-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-4-align-model .right-align-text-lighter {
+  font-size: 20.25px;
+  font-weight: normal;
+  letter-spacing: 1.22px;
+  padding: 20px 0;
+  width: 324px;
+}
+
+.typography .heading-4-align-model .left-align-text-lighter, .typography .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-4-align-model .center-align-text-lighter {
+  font-size: 20.25px;
+  font-weight: 300;
+  letter-spacing: 1.22px;
+  padding: 20px 0;
+  width: 324px;
+}
+
+.typography .heading-4-align-model .center-align {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.typography .heading-4-align-model .center-align-text-bold {
+  padding-top: 100px;
+}
+
+.typography .heading-4-align-model .right-align {
+  text-align: right;
+}
+
+.typography .heading-4-align-model .right-align-text-bold {
+  padding-top: 100px;
+}
+
+.typography .heading-5-align-model {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 10px;
+}
+
+.typography .heading-5-align-model .left-align {
+  text-align: left;
+}
+
+.typography .heading-5-align-model .left-align .h5-name {
+  font-size: 32px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.typography .heading-5-align-model .left-align-text-bold, .typography .heading-5-align-model .center-align-text-bold, .typography .heading-5-align-model .right-align-text-bold, .typography .heading-5-align-model .heading .paragraph-align-model .center-align-text-bold, .typography .heading .paragraph-align-model .heading-5-align-model .center-align-text-bold, .typography .heading-5-align-model .heading .paragraph-align-model .right-align-text-bold, .typography .heading .paragraph-align-model .heading-5-align-model .right-align-text-bold, .typography .heading-5-align-model .heading .small-align-model .center-align-text-bold, .typography .heading .small-align-model .heading-5-align-model .center-align-text-bold, .typography .heading-5-align-model .heading .small-align-model .right-align-text-bold, .typography .heading .small-align-model .heading-5-align-model .right-align-text-bold, .typography .heading-5-align-model .heading .tiny-align-model .center-align-text-bold, .typography .heading .tiny-align-model .heading-5-align-model .center-align-text-bold, .typography .heading-5-align-model .heading .tiny-align-model .right-align-text-bold, .typography .heading .tiny-align-model .heading-5-align-model .right-align-text-bold {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.08px;
+  padding: 20px 0;
+  width: 324px;
+}
+
+.typography .heading-5-align-model .left-align-text-normal, .typography .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .right-align-text-normal, .typography .heading-5-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-5-align-model .right-align-text-normal, .typography .heading-5-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-5-align-model .right-align-text-normal, .typography .heading-5-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-5-align-model .right-align-text-normal, .typography .heading-5-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-5-align-model .right-align-text-lighter {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 1.08px;
+  padding: 20px 0;
+  width: 324px;
+}
+
+.typography .heading-5-align-model .left-align-text-lighter, .typography .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-5-align-model .center-align-text-lighter {
+  font-size: 18px;
+  width: 324px;
+  font-weight: 300;
+  letter-spacing: 1.08px;
+  padding: 20px 0;
+}
+
+.typography .heading-5-align-model .center-align {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.typography .heading-5-align-model .center-align-text-bold {
+  padding-top: 100px;
+}
+
+.typography .heading-5-align-model .right-align {
+  text-align: right;
+}
+
+.typography .heading-5-align-model .right-align-text-bold {
+  padding-top: 100px;
+}
+
+.typography .heading .paragraph-align-model {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 10px;
+}
+
+.typography .heading .paragraph-align-model .left-align {
+  text-align: left;
+}
+
+.typography .heading .paragraph-align-model .left-align .para-name {
+  font-size: 32px;
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+.typography .heading .paragraph-align-model .left-align-text-bold, .typography .heading .paragraph-align-model .center-align-text-bold, .typography .heading .paragraph-align-model .right-align-text-bold {
+  font-size: 16px;
+  letter-spacing: 0.96px;
+  width: 325px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.typography .heading .paragraph-align-model .left-align-text-normal, .typography .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .paragraph-align-model .right-align-text-lighter {
+  font-size: 16px;
+  letter-spacing: 0.96px;
+  width: 325px;
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+.typography .heading .paragraph-align-model .left-align-text-lighter, .typography .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .right-align-text-lighter {
+  font-size: 16px;
+  letter-spacing: 0.96px;
+  width: 325px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.typography .heading .paragraph-align-model .center-align {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.typography .heading .paragraph-align-model .center-align-text-bold {
+  padding-top: 100px;
+}
+
+.typography .heading .paragraph-align-model .right-align {
+  text-align: right;
+}
+
+.typography .heading .paragraph-align-model .right-align-text-bold {
+  padding-top: 100px;
+}
+
+.typography .heading .small-align-model {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 10px;
+}
+
+.typography .heading .small-align-model .left-align {
+  text-align: left;
+}
+
+.typography .heading .small-align-model .left-align .small-name {
+  font-size: 32px;
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+.typography .heading .small-align-model .left-align-text-bold, .typography .heading .small-align-model .center-align-text-bold, .typography .heading .small-align-model .right-align-text-bold {
+  display: inline-block;
+  font-size: 14.22px;
+  width: 325px;
+  letter-spacing: 0.85px;
+  padding: 20px 0;
+  font-weight: 600;
+}
+
+.typography .heading .small-align-model .left-align-text-normal, .typography .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .small-align-model .center-align-text-lighter {
+  display: inline-block;
+  font-size: 14.22px;
+  width: 325px;
+  letter-spacing: 0.85px;
+  padding: 20px 0;
+  font-weight: normal;
+}
+
+.typography .heading .small-align-model .left-align-text-lighter, .typography .heading .small-align-model .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .center-align-text-lighter {
+  display: inline-block;
+  font-size: 14.22px;
+  width: 325px;
+  letter-spacing: 0.85px;
+  padding: 20px 0;
+  font-weight: 300;
+}
+
+.typography .heading .small-align-model .center-align {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.typography .heading .small-align-model .center-align-text-bold {
+  padding-top: 100px;
+}
+
+.typography .heading .small-align-model .right-align {
+  text-align: right;
+}
+
+.typography .heading .small-align-model .right-align-text-bold {
+  padding-top: 100px;
+}
+
+.typography .heading .tiny-align-model {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.typography .heading .tiny-align-model .left-align {
+  text-align: left;
+}
+
+.typography .heading .tiny-align-model .left-align .tiny-name {
+  font-size: 32px;
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+.typography .heading .tiny-align-model .left-align-text-bold, .typography .heading .tiny-align-model .center-align-text-bold, .typography .heading .tiny-align-model .right-align-text-bold {
+  display: inline-block;
+  font-size: 12.64px;
+  letter-spacing: 0.76px;
+  width: 325px;
+  padding: 20px 0;
+  font-weight: 600;
+}
+
+.typography .heading .tiny-align-model .left-align-text-normal, .typography .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .right-align-text-lighter {
+  display: inline-block;
+  font-size: 12.64px;
+  letter-spacing: 0.76px;
+  width: 325px;
+  padding: 20px 0;
+  font-weight: normal;
+}
+
+.typography .heading .tiny-align-model .left-align-text-lighter, .typography .heading .tiny-align-model .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .tiny-align-model .center-align-text-lighter {
+  display: inline-block;
+  font-size: 12.64px;
+  letter-spacing: 0.76px;
+  width: 325px;
+  padding: 20px 0;
+  font-weight: 300;
+}
+
+.typography .heading .tiny-align-model .center-align {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.typography .heading .tiny-align-model .center-align-text-bold {
+  padding-top: 100px;
+}
+
+.typography .heading .tiny-align-model .right-align {
+  text-align: right;
+}
+
+.typography .heading .tiny-align-model .right-align-text-bold {
+  padding-top: 100px;
+}
+
+.color-palatte {
+  margin-top: 64px;
+  margin-bottom: 100px;
+  color: #FFFFFE;
+}
+
+.color-palatte-title {
+  color: #FFFFFE;
+  font-size: 128px;
+  font-weight: 600;
+}
+
+.color-palatte .color-model {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  grid-gap: 60px 0px;
+  margin: 80px 0;
+}
+
+.color-palatte .color-model .gray-color-1 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #F7FAFC;
+}
+
+.color-palatte .color-model .gray-color-1 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .gray-color-2 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #EDF2F7;
+}
+
+.color-palatte .color-model .gray-color-2 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .gray-color-3 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #E2E8F0;
+}
+
+.color-palatte .color-model .gray-color-3 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .gray-color-4 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #CBD5E0;
+}
+
+.color-palatte .color-model .gray-color-4 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .gray-color-5 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #A0AEC0;
+}
+
+.color-palatte .color-model .gray-color-5 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .gray-color-6 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #718096;
+}
+
+.color-palatte .color-model .gray-color-6 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .gray-color-7 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #4A5568;
+}
+
+.color-palatte .color-model .gray-color-7 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .gray-color-8 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #2D3748;
+}
+
+.color-palatte .color-model .gray-color-8 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .gray-color-9 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #1A202C;
+}
+
+.color-palatte .color-model .gray-color-9 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .red-color-1 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #FFF5F5;
+}
+
+.color-palatte .color-model .red-color-1 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .red-color-2 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #FED7D7;
+}
+
+.color-palatte .color-model .red-color-2 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .red-color-3 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #FEB2B2;
+}
+
+.color-palatte .color-model .red-color-3 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .red-color-4 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #FC8181;
+}
+
+.color-palatte .color-model .red-color-4 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .red-color-5 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #F56565;
+}
+
+.color-palatte .color-model .red-color-5 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .red-color-6 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #E53E3E;
+}
+
+.color-palatte .color-model .red-color-6 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .red-color-7 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #C53030;
+}
+
+.color-palatte .color-model .red-color-7 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .red-color-8 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #9B2C2C;
+}
+
+.color-palatte .color-model .red-color-8 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .red-color-9 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #742A2A;
+}
+
+.color-palatte .color-model .red-color-9 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .orange-color-1 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #FFFAF0;
+}
+
+.color-palatte .color-model .orange-color-1 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .orange-color-2 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #FEEBC8;
+}
+
+.color-palatte .color-model .orange-color-2 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .orange-color-3 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #FBD38D;
+}
+
+.color-palatte .color-model .orange-color-3 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .orange-color-4 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #F6AD55;
+}
+
+.color-palatte .color-model .orange-color-4 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .orange-color-5 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #ED8936;
+}
+
+.color-palatte .color-model .orange-color-5 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .orange-color-6 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #DD6B20;
+}
+
+.color-palatte .color-model .orange-color-6 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .orange-color-7 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #C05621;
+}
+
+.color-palatte .color-model .orange-color-7 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .orange-color-8 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #9C4221;
+}
+
+.color-palatte .color-model .orange-color-8 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .orange-color-9 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #7B341E;
+}
+
+.color-palatte .color-model .orange-color-9 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .yellow-color-1 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #FFFFF0;
+}
+
+.color-palatte .color-model .yellow-color-1 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .yellow-color-2 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #FEFCBF;
+}
+
+.color-palatte .color-model .yellow-color-2 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .yellow-color-3 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #FAF089;
+}
+
+.color-palatte .color-model .yellow-color-3 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .yellow-color-4 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #F6E05E;
+}
+
+.color-palatte .color-model .yellow-color-4 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .yellow-color-5 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #ECC94B;
+}
+
+.color-palatte .color-model .yellow-color-5 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .yellow-color-6 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #D69E2E;
+}
+
+.color-palatte .color-model .yellow-color-6 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .yellow-color-7 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #B7791F;
+}
+
+.color-palatte .color-model .yellow-color-7 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .yellow-color-8 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #975A16;
+}
+
+.color-palatte .color-model .yellow-color-8 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .yellow-color-9 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #744210;
+}
+
+.color-palatte .color-model .yellow-color-9 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .green-color-1 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #F0FFF4;
+}
+
+.color-palatte .color-model .green-color-1 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .green-color-2 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #C6F6D5;
+}
+
+.color-palatte .color-model .green-color-2 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .green-color-3 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #9AE6B4;
+}
+
+.color-palatte .color-model .green-color-3 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .green-color-4 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #68D391;
+}
+
+.color-palatte .color-model .green-color-4 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .green-color-5 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #48BB78;
+}
+
+.color-palatte .color-model .green-color-5 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .green-color-6 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #38A169;
+}
+
+.color-palatte .color-model .green-color-6 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .green-color-7 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #2F855A;
+}
+
+.color-palatte .color-model .green-color-7 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .green-color-8 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #276749;
+}
+
+.color-palatte .color-model .green-color-8 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .green-color-9 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #22543D;
+}
+
+.color-palatte .color-model .green-color-9 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .teal-color-1 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #E6FFFA;
+}
+
+.color-palatte .color-model .teal-color-1 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .teal-color-2 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #B2F5EA;
+}
+
+.color-palatte .color-model .teal-color-2 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .teal-color-3 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #81E6D9;
+}
+
+.color-palatte .color-model .teal-color-3 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .teal-color-4 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #4FD1C5;
+}
+
+.color-palatte .color-model .teal-color-4 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .teal-color-5 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #38B2AC;
+}
+
+.color-palatte .color-model .teal-color-5 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .teal-color-6 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #319795;
+}
+
+.color-palatte .color-model .teal-color-6 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .teal-color-7 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #2C7A7B;
+}
+
+.color-palatte .color-model .teal-color-7 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .teal-color-8 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #285E61;
+}
+
+.color-palatte .color-model .teal-color-8 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .teal-color-9 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #234E52;
+}
+
+.color-palatte .color-model .teal-color-9 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .blue-color-1 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #EBF8FF;
+}
+
+.color-palatte .color-model .blue-color-1 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .blue-color-2 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #BEE3F8;
+}
+
+.color-palatte .color-model .blue-color-2 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .blue-color-3 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #90CDF4;
+}
+
+.color-palatte .color-model .blue-color-3 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .blue-color-4 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #63B3ED;
+}
+
+.color-palatte .color-model .blue-color-4 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .blue-color-5 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #4299E1;
+}
+
+.color-palatte .color-model .blue-color-5 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .blue-color-6 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #3182CE;
+}
+
+.color-palatte .color-model .blue-color-6 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .blue-color-7 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #2B6CB0;
+}
+
+.color-palatte .color-model .blue-color-7 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .blue-color-8 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #2C5282;
+}
+
+.color-palatte .color-model .blue-color-8 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .blue-color-9 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #2A4365;
+}
+
+.color-palatte .color-model .blue-color-9 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .indigo-color-1 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #EBF4FF;
+}
+
+.color-palatte .color-model .indigo-color-1 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .indigo-color-2 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #C3DAFE;
+}
+
+.color-palatte .color-model .indigo-color-2 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .indigo-color-3 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #A3BFFA;
+}
+
+.color-palatte .color-model .indigo-color-3 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .indigo-color-4 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #7F9CF5;
+}
+
+.color-palatte .color-model .indigo-color-4 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .indigo-color-5 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #667EEA;
+}
+
+.color-palatte .color-model .indigo-color-5 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .indigo-color-6 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #5A67D8;
+}
+
+.color-palatte .color-model .indigo-color-6 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .indigo-color-7 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #4C51BF;
+}
+
+.color-palatte .color-model .indigo-color-7 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .indigo-color-8 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #434190;
+}
+
+.color-palatte .color-model .indigo-color-8 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .indigo-color-9 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #3C366B;
+}
+
+.color-palatte .color-model .indigo-color-9 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .purple-color-1 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #FAF5FF;
+}
+
+.color-palatte .color-model .purple-color-1 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .purple-color-2 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #E9D8FD;
+}
+
+.color-palatte .color-model .purple-color-2 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .purple-color-3 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #D6BCFA;
+}
+
+.color-palatte .color-model .purple-color-3 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .purple-color-4 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #B794F4;
+}
+
+.color-palatte .color-model .purple-color-4 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .purple-color-5 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #9F7AEA;
+}
+
+.color-palatte .color-model .purple-color-5 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .purple-color-6 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #805AD5;
+}
+
+.color-palatte .color-model .purple-color-6 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .purple-color-7 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #6B46C1;
+}
+
+.color-palatte .color-model .purple-color-7 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .purple-color-8 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #553C9A;
+}
+
+.color-palatte .color-model .purple-color-8 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .purple-color-9 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #44337A;
+}
+
+.color-palatte .color-model .purple-color-9 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .pink-color-1 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #FFF5F7;
+}
+
+.color-palatte .color-model .pink-color-1 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .pink-color-2 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #FED7E2;
+}
+
+.color-palatte .color-model .pink-color-2 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .pink-color-3 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #FBB6CE;
+}
+
+.color-palatte .color-model .pink-color-3 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .pink-color-4 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #F687B3;
+}
+
+.color-palatte .color-model .pink-color-4 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .pink-color-5 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #ED64A6;
+}
+
+.color-palatte .color-model .pink-color-5 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .pink-color-6 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #D53F8C;
+}
+
+.color-palatte .color-model .pink-color-6 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .pink-color-7 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #B83280;
+}
+
+.color-palatte .color-model .pink-color-7 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .pink-color-8 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #97266D;
+}
+
+.color-palatte .color-model .pink-color-8 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .pink-color-9 .color-fill {
+  width: 111px;
+  height: 90px;
+  background-color: #702459;
+}
+
+.color-palatte .color-model .pink-color-9 .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.grid-system {
+  color: #FFFFFE;
+  margin-top: 62px;
+  margin-bottom: 100px;
+}
+
+.grid-system-title {
+  font-size: 128px;
+  letter-spacing: 7.68px;
+  font-weight: 600;
+  width: 1004px;
+  margin: auto;
+}
+
+.grid-system .lg-display-title {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2.4px;
+  width: 1004px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.grid-system .lg-display-sub-title {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 1.92px;
+  width: 1004px;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.grid-system .lg-display .lg-type-1 {
+  padding: 20px 0;
+}
+
+.grid-system .lg-display .lg-type-1-title {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+  width: 1004px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container {
+  width: 1280px;
+  height: 800px;
+  border: 1px solid #FFFFFE;
+  border-radius: 4px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .sidebar {
+  width: 105px;
+  height: 800px;
+  border: 2px solid #FFFFFE;
+  background-color: #1A2630;
+  border-radius: 4px;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (100px)[6];
+      grid-template-rows: repeat(6, 100px);
+  -ms-grid-columns: (auto)[24];
+      grid-template-columns: repeat(24, auto);
+  grid-gap: 15px;
+  width: 1139px;
+  height: 680px;
+  margin: auto;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-1 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 24;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-2 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 12;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-3 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 12;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-4 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 8;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-5 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 8;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-6 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 8;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-7 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-8 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-9 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-10 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-11 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-12 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-13 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-14 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-15 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-16 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-17 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-18 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-19 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-20 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-21 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-22 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-23 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-24 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-2 {
+  padding: 20px 0;
+}
+
+.grid-system .lg-display .lg-type-2-title {
+  padding: 20px 0;
+  width: 1004px;
+  margin: auto;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container {
+  width: 1280px;
+  height: 800px;
+  border: 1px solid #FFFFFE;
+  margin: auto;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .sidebar {
+  width: 210px;
+  height: 800px;
+  border: 2px solid #FFFFFE;
+  border-radius: 4px;
+  background-color: #1A2630;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (100px)[6];
+      grid-template-rows: repeat(6, 100px);
+  -ms-grid-columns: (auto)[24];
+      grid-template-columns: repeat(24, auto);
+  grid-gap: 15px;
+  width: 1034px;
+  height: 680px;
+  margin: auto;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-1 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 24;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-2 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 12;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-3 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 12;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-4 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 8;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-5 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 8;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-6 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 8;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-7 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-8 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-9 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-10 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-11 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-12 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-13 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-14 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-15 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-16 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-17 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-18 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-19 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-20 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-21 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-22 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-23 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-24 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-3 {
+  padding: 20px 0;
+}
+
+.grid-system .lg-display .lg-type-3-title {
+  padding: 20px 0;
+  width: 1004px;
+  margin: auto;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container {
+  width: 1280px;
+  height: 800px;
+  border: 1px solid #FFFFFE;
+  margin: auto;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .sidebar {
+  width: 315px;
+  height: 800px;
+  border: 2px solid #FFFFFE;
+  border-radius: 4px;
+  background-color: #1A2630;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (100px)[6];
+      grid-template-rows: repeat(6, 100px);
+  -ms-grid-columns: (auto)[24];
+      grid-template-columns: repeat(24, auto);
+  grid-gap: 15px;
+  width: 929px;
+  height: 680px;
+  margin: auto;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-1 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 24;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-2 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 12;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-3 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 12;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-4 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 8;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-5 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 8;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-6 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 8;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-7 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-8 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-9 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-10 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-11 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-12 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-13 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-14 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-15 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-16 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-17 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-18 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-19 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-20 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-21 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-22 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-23 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-24 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .md-display {
+  margin-top: 20px;
+}
+
+.grid-system .md-display-title {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 20px 0;
+  letter-spacing: 2.4px;
+  width: 1004px;
+  margin: auto;
+}
+
+.grid-system .md-display-sub-title {
+  font-size: 32px;
+  letter-spacing: 1.92px;
+  font-weight: 600;
+  padding: 10px 0;
+  width: 1004px;
+  margin: auto;
+}
+
+.grid-system .md-display .md-type-1 {
+  padding: 20px 0;
+}
+
+.grid-system .md-display .md-type-1-title {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 0;
+  width: 1004px;
+  margin: auto;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container {
+  width: 1024px;
+  height: 633px;
+  margin: auto;
+  border: 1px solid #FFFFFE;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .sidebar {
+  width: 126px;
+  height: 633px;
+  border: 2px solid #FFFFFE;
+  border-radius: 4px;
+  background-color: #1A2630;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (100px)[5];
+      grid-template-rows: repeat(5, 100px);
+  -ms-grid-columns: (auto)[12];
+      grid-template-columns: repeat(12, auto);
+  grid-gap: 15px;
+  width: 866px;
+  height: 564px;
+  margin: auto;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-1 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 12;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-2 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-3 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-4 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-5 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-6 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-7 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-8 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-9 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-10 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-11 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 2;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-12 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 2;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-13 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 2;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-14 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 2;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-15 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 2;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-16 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 2;
+}
+
+.grid-system .md-display .md-type-2 {
+  padding: 20px 0;
+}
+
+.grid-system .md-display .md-type-2-title {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 0;
+  width: 1004px;
+  margin: auto;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container {
+  width: 1024px;
+  height: 633px;
+  margin: auto;
+  border: 1px solid #FFFFFE;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .sidebar {
+  width: 252px;
+  height: 633px;
+  border: 2px solid #FFFFFE;
+  border-radius: 4px;
+  background-color: #1A2630;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (100px)[5];
+      grid-template-rows: repeat(5, 100px);
+  -ms-grid-columns: (auto)[12];
+      grid-template-columns: repeat(12, auto);
+  grid-gap: 15px;
+  width: 740px;
+  height: 564px;
+  margin: auto;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-1 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 12;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-2 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-3 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 6;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-4 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-5 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-6 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 4;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-7 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-8 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-9 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-10 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 3;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-11 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 2;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-12 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 2;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-13 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 2;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-14 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 2;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-15 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 2;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-16 {
+  background-color: #9EAFC1;
+  border-radius: 4px;
+  grid-column: span 2;
+}
+/*# sourceMappingURL=style.css.map */

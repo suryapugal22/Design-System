@@ -1,0 +1,45 @@
+.ads {
+    color: $white;
+    margin-top: 161px;
+    margin-bottom: 100px;
+    &-title {
+        font-size: 40px;
+        letter-spacing: 0.64px;
+        span {
+            font-size: 128px;
+            letter-spacing: 2.05px;
+            color: $black;
+            font-weight: $fontWeightNormal;
+            text-shadow:    
+            -2.5px -2.5px 0 $white,
+            0   -2.5px 0 $white,
+            2.5px -2.5px 0 $white,
+            2.5px  0   0 $white,
+            2.5px  2.5px 0 $white,
+            0    2.5px 0 $white,
+           -2.5px  2.5px 0 $white,
+           -2.5px  0   0 $white;
+        }
+    }
+    .design {
+        &-title {
+            font-size: 40px;
+            font-weight: $fontWeightNormal;
+            padding: 10px 0;
+        }
+        &-sub-title {
+            font-size: 24px;
+            font-weight: $fontWeight300;
+            padding: 10px 0;
+        }
+        &-text {
+            font-weight: $fontWeight300;
+            width: 1004px;
+            height: 173px;
+            font-size: 32px;
+            letter-spacing: 0.51px;
+            line-height: 44.7px;
+            margin: 15px 0;
+        }
+    }
+}
