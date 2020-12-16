@@ -3,22 +3,22 @@
     margin-top: 47px;
     margin-bottom: 100px;
     &-title {
-        font-size: 128px;
+        font-size: $fontSize128;
         font-weight: $fontWeightNormal;
     }
     &-hero {
         .hero-hint {
-            font-size: 32px;
+            font-size: $fontSize32;
             font-weight: $fontWeight300;
             padding: 30px 0;
         }
         .hero-title {
-            font-size: 40px;
+            font-size: $fontSize40;
             font-weight: $fontWeightNormal;
             padding-bottom: 10px;
         }
         .hero-text {
-            font-size: 32px;
+            font-size: $fontSize32;
             width: 1004px;
             font-weight: $fontWeight300;
             letter-spacing: 0.51px;
@@ -31,15 +31,16 @@
             letter-spacing: 0.96px;
             color: $white;
             padding: 10px 0;
-            font-size: 16px;
+            font-size: $fontSize16;
         }
         .scroll-down {
             text-align: center;
-            font-size: 20px;
+            font-size: $fontSize20;
+            color: $white;
             a {
                 display: block;
                 color: $white;
-                font-size: 12px;
+                font-size: $fontSize12;
             }
             i {
                 padding: 10px;
@@ -48,24 +49,24 @@
     }
     .heading {
         &-title {
-            font-size: 60px;
+            font-size: $fontSize60;
             font-weight: $fontWeightNormal;
             padding: 20px 0;
         }
         &-1-align-model {
             @include flex(row);
-            font-size: 28.83px;
+            font-size: $fontSize28-83;
             border-bottom: 1px solid $gray;
             padding-bottom: 10px;
             .left-align {
                 text-align: left;
                 &-title {
-                    font-size: 24px;
+                    font-size: $fontSize24;
                     font-weight: 600;
                     padding: 25px 0;
                 }
                 .h1-name {
-                    font-size: 32px;
+                    font-size: $fontSize32;
                     font-weight: $fontWeight300;
                     padding: 20px 0;
                 }
@@ -95,16 +96,13 @@
                     @extend .left-align-title;
                 }
                 &-text-bold {
-                    width: 324px;
                     padding-top: 100px;
                     @extend .left-align-text-bold;
                 }
                 &-text-normal {
-                    width: 324px;
                     @extend .left-align-text-normal;
                 }
                 &-text-lighter {
-                    width: 324px;
                     @extend .left-align-text-lighter;
                 }
             }
@@ -114,16 +112,13 @@
                     @extend .left-align-title;
                 }
                 &-text-bold {
-                    width: 324px;
                     padding-top: 100px;
                     @extend .left-align-text-bold;
                 }
                 &-text-normal {
-                    width: 324px;
                     @extend .left-align-text-normal;
                 }
                 &-text-lighter {
-                    width: 324px;
                     @extend .left-align-text-lighter;
                 }
             }
@@ -135,27 +130,27 @@
             .left-align {
                 text-align: left;
                 .h2-name {
-                    font-size: 32px;
+                    font-size: $fontSize32;
                     font-weight: $fontWeight300;
                     padding: 20px 0;
                 }
                 &-text-bold {
                     width: 324px;
-                    font-size: 25.63px;
+                    font-size: $fontSize25-63;
                     letter-spacing: 1.54px;
                     font-weight: $fontWeightBold;
                     padding: 20px 0;
                 }
                 &-text-normal {
                     width: 324px;
-                    font-size: 25.63px;
+                    font-size: $fontSize25-63;
                     letter-spacing: 1.54px;
                     font-weight: $fontWeightNormal;
                     padding: 20px 0;
                 }
                 &-text-lighter {
                     width: 324px;
-                    font-size: 25.63px;
+                    font-size: $fontSize25-63;
                     letter-spacing: 1.54px;
                     font-weight: $fontWeight300;
                     padding: 20px 0;
@@ -196,26 +191,26 @@
             .left-align {
                 text-align: left;
                 .h3-name {
-                    font-size: 32px;
+                    font-size: $fontSize32;
                     font-weight: $fontWeight300;
                     padding: 20px 0;
                 }
                 &-text-bold {
-                    font-size: 22.78px;
+                    font-size: $fontSize22-78;
                     font-weight: $fontWeightBold;
                     padding: 20px 0;
                     letter-spacing: 1.37px;
                     width: 324px;
                 }
                 &-text-normal {
-                    font-size: 22.78px;
+                    font-size: $fontSize22-78;
                     font-weight: $fontWeightNormal;
                     padding: 20px 0;
                     letter-spacing: 1.37px;
                     width: 324px;
                 }
                 &-text-lighter {
-                    font-size: 22.78px;
+                    font-size: $fontSize22-78;
                     font-weight: $fontWeight300;
                     padding: 20px 0;
                     letter-spacing: 1.37px;
@@ -257,26 +252,26 @@
             text-align: left;
             .left-align {
                 .h4-name {
-                    font-size: 32px;
+                    font-size: $fontSize32;
                     font-weight: $fontWeight300;
                     padding: 20px 0;
                 }
                 &-text-bold {
-                    font-size: 20.25px;
+                    font-size: $fontSize20-25;
                     font-weight: $fontWeightBold;
                     letter-spacing: 1.22px;
                     padding: 20px 0;
                     width: 324px;
                 }
                 &-text-normal {
-                    font-size: 20.25px;
+                    font-size: $fontSize20-25;
                     font-weight: $fontWeightNormal;
                     letter-spacing: 1.22px;
                     padding: 20px 0;
                     width: 324px;
                 }
                 &-text-lighter {
-                    font-size: 20.25px;
+                    font-size: $fontSize20-25;
                     font-weight: $fontWeight300;
                     letter-spacing: 1.22px;
                     padding: 20px 0;
@@ -318,26 +313,26 @@
             .left-align {
                 text-align: left;
                 .h5-name {
-                    font-size: 32px;
+                    font-size: $fontSize32;
                     font-weight: $fontWeight300;
                     padding: 20px 0;
                 }
                 &-text-bold {
-                    font-size: 18px;
+                    font-size: $fontSize18;
                     font-weight: $fontWeightBold;
                     letter-spacing: 1.08px;
                     padding: 20px 0;
                     width: 324px;
                 }
                 &-text-normal {
-                    font-size: 18px;
+                    font-size: $fontSize18;
                     font-weight: $fontWeightNormal;
                     letter-spacing: 1.08px;
                     padding: 20px 0;
                     width: 324px;
                 }
                 &-text-lighter {
-                    font-size: 18px;
+                    font-size: $fontSize18;
                     width: 324px;
                     font-weight: $fontWeight300;
                     letter-spacing: 1.08px;
@@ -379,26 +374,26 @@
             .left-align {
                 text-align: left;
                 .para-name {
-                    font-size: 32px;
+                    font-size: $fontSize32;
                     font-weight: $fontWeightNormal;
                     padding: 20px 0;
                 }
                 &-text-bold {
-                    font-size: 16px;
+                    font-size: $fontSize16;
                     letter-spacing: 0.96px;
                     width: 325px;
                     font-weight: $fontWeightBold;
                     padding: 20px 0;
                 }
                 &-text-normal {
-                    font-size: 16px;
+                    font-size: $fontSize16;
                     letter-spacing: 0.96px;
                     width: 325px;
                     font-weight: $fontWeightNormal;
                     padding: 20px 0;
                 }
                 &-text-lighter {
-                    font-size: 16px;
+                    font-size: $fontSize16;
                     letter-spacing: 0.96px;
                     width: 325px;
                     font-weight: $fontWeight300;
@@ -440,13 +435,13 @@
             .left-align {
                 text-align: left;
                 .small-name {
-                    font-size: 32px;
+                    font-size: $fontSize32;
                     font-weight: $fontWeightNormal;
                     padding: 20px 0;
                 }
                 &-text-bold {
                     display: inline-block;
-                    font-size: 14.22px;
+                    font-size: $fontSize14-22;
                     width: 325px;
                     letter-spacing: 0.85px;
                     padding: 20px 0;
@@ -454,7 +449,7 @@
                 }
                 &-text-normal {
                     display: inline-block;
-                    font-size: 14.22px;
+                    font-size: $fontSize14-22;
                     width: 325px;
                     letter-spacing: 0.85px;
                     padding: 20px 0;
@@ -462,7 +457,7 @@
                 }
                 &-text-lighter {
                     display: inline-block;
-                    font-size: 14.22px;
+                    font-size: $fontSize14-22;
                     width: 325px;
                     letter-spacing: 0.85px;
                     padding: 20px 0;
@@ -493,7 +488,7 @@
                     @extend .left-align-text-normal;
                 }
                 &-text-lighter {
-                    @extend .left-align-text-normal;
+                    @extend .left-align-text-lighter;
                 }
             }
         }
@@ -502,13 +497,13 @@
             .left-align {
                 text-align: left;
                 .tiny-name {
-                    font-size: 32px;
+                    font-size: $fontSize32;
                     font-weight: $fontWeightNormal;
                     padding: 20px 0;
                 }
                 &-text-bold {
                     display: inline-block;
-                    font-size: 12.64px;
+                    font-size: $fontSize12-64;
                     letter-spacing: 0.76px;
                     width: 325px;
                     padding: 20px 0;
@@ -516,7 +511,7 @@
                 }
                 &-text-normal {
                     display: inline-block;
-                    font-size: 12.64px;
+                    font-size: $fontSize12-64;
                     letter-spacing: 0.76px;
                     width: 325px;
                     padding: 20px 0;
@@ -524,7 +519,7 @@
                 }
                 &-text-lighter {
                     display: inline-block;
-                    font-size: 12.64px;
+                    font-size: $fontSize12-64;
                     letter-spacing: 0.76px;
                     width: 325px;
                     padding: 20px 0;
@@ -542,7 +537,7 @@
                     @extend .left-align-text-normal;
                 }
                 &-text-lighter {
-                    @extend .left-align-text-normal;
+                    @extend .left-align-text-lighter;
                 }
             }
             .right-align {
@@ -555,7 +550,7 @@
                     @extend .left-align-text-normal;
                 }
                 &-text-lighter {
-                    @extend .left-align-text-normal;
+                    @extend .left-align-text-lighter ;
                 }
             }
         }

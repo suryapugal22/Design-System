@@ -4,1111 +4,500 @@
     color: $white;
     &-title {
         color: $white;
-        font-size: 128px;
+        font-size: $fontSize128;
         font-weight: $fontWeightBold;
     }
     .color-model {
         display: grid;
-        grid-template-columns: auto auto auto auto auto auto auto auto auto;
+        grid-template-columns: repeat(9, auto);
         grid-gap: 60px 0px;
         margin: 80px 0;
-        .gray-color-1 {
+        .color {
             .color-fill {
                 width: 111px;
                 height: 90px;
-                background-color: #F7FAFC;
             }
             .color-name {
                 padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                font-size: $fontSize12;
+                font-family: $familyLato;
             }
         }
-        .gray-color-2 {
+        .ff-arial {
+            font-family: $familyArial;
+        }
+        .gray-1 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #EDF2F7;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $gray100;
             }
         }
-        .gray-color-3 {
+        .gray-2 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #E2E8F0;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $gray200;
             }
         }
-        .gray-color-4 {
+        .gray-3 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #CBD5E0;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $gray300;
             }
         }
-        .gray-color-5 {
+        .gray-4 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #A0AEC0;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $gray400;
             }
         }
-        .gray-color-6 {
+        .gray-5 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #718096;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $gray500;
             }
         }
-        .gray-color-7 {
+        .gray-6 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #4A5568;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $gray600;
             }
         }
-        .gray-color-8 {
+        .gray-7 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #2D3748;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $gray700;
             }
         }
-        .gray-color-9 {
+        .gray-8 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #1A202C;
+                background-color: $gray800;
             }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+        }
+        .gray-9 {
+            .color-fill {
+                background-color: $gray900;
             }
         }
 
 
-        .red-color-1 {
+        .red-1 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #FFF5F5;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $red100;
             }
         }
-        .red-color-2 {
+        .red-2 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #FED7D7;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $red200;
             }
         }
-        .red-color-3 {
+        .red-3 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #FEB2B2;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $red300;
             }
         }
-        .red-color-4 {
+        .red-4 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #FC8181;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $red400;
             }
         }
-        .red-color-5 {
+        .red-5 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #F56565;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $red500;
             }
         }
-        .red-color-6 {
+        .red-6 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #E53E3E;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $red600;
             }
         }
-        .red-color-7 {
+        .red-7 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #C53030;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $red700;
             }
         }
-        .red-color-8 {
+        .red-8 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #9B2C2C;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $red800;
             }
         }
-        .red-color-9 {
+        .red-9 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #742A2A;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $red900;
             }
         }
 
 
-        .orange-color-1 {
+        .orange-1 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #FFFAF0;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $orange100;
             }
         }
-        .orange-color-2 {
+        .orange-2 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #FEEBC8;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $orange200;
             }
         }
-        .orange-color-3 {
+        .orange-3 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #FBD38D;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $orange300;
             }
         }
-        .orange-color-4 {
+        .orange-4 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #F6AD55;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $orange400;
             }
         }
-        .orange-color-5 {
+        .orange-5 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #ED8936;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $orange500;
             }
         }
-        .orange-color-6 {
+        .orange-6 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #DD6B20;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $orange600;
             }
         }
-        .orange-color-7 {
+        .orange-7 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #C05621;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $orange700;
             }
         }
-        .orange-color-8 {
+        .orange-8 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #9C4221;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+                background-color: $orange800;
             }
         }
-        .orange-color-9 {
+        .orange-9 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #7B341E;
+                background-color: $orange900;
             }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyArial;
+        }
+        
+
+        .yellow-1 {
+            .color-fill {
+                background-color: $yellow100;
+            }
+        }
+        .yellow-2 {
+            .color-fill {
+                background-color: $yellow200;
+            }
+        }
+        .yellow-3 {
+            .color-fill {
+                background-color: $yellow300;
+            }
+        }
+        .yellow-4 {
+            .color-fill {
+                background-color: $yellow400;
+            }
+        }
+        .yellow-5 {
+            .color-fill {
+                background-color: $yellow500;
+            }
+        }
+        .yellow-6 {
+            .color-fill {
+                background-color: $yellow600;
+            }
+        }
+        .yellow-7 {
+            .color-fill {
+                background-color: $yellow700;
+            }
+        }
+        .yellow-8 {
+            .color-fill {
+                background-color: $yellow800;
+            }
+        }
+        .yellow-9 {
+            .color-fill {
+                background-color: $yellow900;
             }
         }
 
 
-        .yellow-color-1 {
+        .green-1 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #FFFFF0;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $green100;
             }
         }
-        .yellow-color-2 {
+        .green-2 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #FEFCBF;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $green200;
             }
         }
-        .yellow-color-3 {
+        .green-3 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #FAF089;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $green300;
             }
         }
-        .yellow-color-4 {
+        .green-4 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #F6E05E;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $green400;
             }
         }
-        .yellow-color-5 {
+        .green-5 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #ECC94B;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $green500;
             }
         }
-        .yellow-color-6 {
+        .green-6 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #D69E2E;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $green600;
             }
         }
-        .yellow-color-7 {
+        .green-7 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #B7791F;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $green700;
             }
         }
-        .yellow-color-8 {
+        .green-8 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #975A16;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $green800;
             }
         }
-        .yellow-color-9 {
+        .green-9 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #744210;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $green900;
             }
         }
 
 
-        .green-color-1 {
+        .teal-1 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #F0FFF4;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $teal100;
             }
         }
-        .green-color-2 {
+        .teal-2 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #C6F6D5;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $teal200;
             }
         }
-        .green-color-3 {
+        .teal-3 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #9AE6B4;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $teal300;
             }
         }
-        .green-color-4 {
+        .teal-4 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #68D391;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $teal400;
             }
         }
-        .green-color-5 {
+        .teal-5 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #48BB78;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $teal500;
             }
         }
-        .green-color-6 {
+        .teal-6 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #38A169;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $teal600;
             }
         }
-        .green-color-7 {
+        .teal-7 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #2F855A;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $teal700;
             }
         }
-        .green-color-8 {
+        .teal-8 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #276749;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $teal800;
             }
         }
-        .green-color-9 {
+        .teal-9 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #22543D;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $teal900;
             }
         }
 
 
-        .teal-color-1 {
+        .blue-1 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #E6FFFA;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $blue100;
             }
         }
-        .teal-color-2 {
+        .blue-2 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #B2F5EA;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $blue200;
             }
         }
-        .teal-color-3 {
+        .blue-3 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #81E6D9;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $blue300;
             }
         }
-        .teal-color-4 {
+        .blue-4 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #4FD1C5;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $blue400;
             }
         }
-        .teal-color-5 {
+        .blue-5 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #38B2AC;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $blue500;
             }
         }
-        .teal-color-6 {
+        .blue-6 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #319795;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $blue600;
             }
         }
-        .teal-color-7 {
+        .blue-7 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #2C7A7B;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $blue700;
             }
         }
-        .teal-color-8 {
+        .blue-8 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #285E61;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $blue800;
             }
         }
-        .teal-color-9 {
+        .blue-9 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #234E52;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $blue900;
             }
         }
 
 
-        .blue-color-1 {
+        .indigo-1 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #EBF8FF;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $indigo100;
             }
         }
-        .blue-color-2 {
+        .indigo-2 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #BEE3F8;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $indigo200;
             }
         }
-        .blue-color-3 {
+        .indigo-3 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #90CDF4;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $indigo300;
             }
         }
-        .blue-color-4 {
+        .indigo-4 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #63B3ED;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $indigo400;
             }
         }
-        .blue-color-5 {
+        .indigo-5 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #4299E1;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $indigo500;
             }
         }
-        .blue-color-6 {
+        .indigo-6 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #3182CE;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $indigo600;
             }
         }
-        .blue-color-7 {
+        .indigo-7 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #2B6CB0;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $indigo700;
             }
         }
-        .blue-color-8 {
+        .indigo-8 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #2C5282;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $indigo800;
             }
         }
-        .blue-color-9 {
+        .indigo-9 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #2A4365;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $indigo900;
             }
         }
 
 
-        .indigo-color-1 {
+        .purple-1 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #EBF4FF;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $purple100;
             }
         }
-        .indigo-color-2 {
+        .purple-2 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #C3DAFE;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $purple200;
             }
         }
-        .indigo-color-3 {
+        .purple-3 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #A3BFFA;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $purple300;
             }
         }
-        .indigo-color-4 {
+        .purple-4 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #7F9CF5;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $purple400;
             }
         }
-        .indigo-color-5 {
+        .purple-5 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #667EEA;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $purple500;
             }
         }
-        .indigo-color-6 {
+        .purple-6 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #5A67D8;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $purple600;
             }
         }
-        .indigo-color-7 {
+        .purple-7 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #4C51BF;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $purple700;
             }
         }
-        .indigo-color-8 {
+        .purple-8 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #434190;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $purple800;
             }
         }
-        .indigo-color-9 {
+        .purple-9 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #3C366B;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $purple900;
             }
         }
 
 
-        .purple-color-1 {
+        .pink-1 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #FAF5FF;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $pink100;
             }
         }
-        .purple-color-2 {
+        .pink-2 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #E9D8FD;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $pink200;
             }
         }
-        .purple-color-3 {
+        .pink-3 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #D6BCFA;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $pink300;
             }
         }
-        .purple-color-4 {
+        .pink-4 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #B794F4;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $pink400;
             }
         }
-        .purple-color-5 {
+        .pink-5 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #9F7AEA;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $pink500;
             }
         }
-        .purple-color-6 {
+        .pink-6 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #805AD5;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $pink600;
             }
         }
-        .purple-color-7 {
+        .pink-7 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #6B46C1;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $pink700;
             }
         }
-        .purple-color-8 {
+        .pink-8 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #553C9A;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $pink800;
             }
         }
-        .purple-color-9 {
+        .pink-9 {
             .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #44337A;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
-            }
-        }
-
-
-        .pink-color-1 {
-            .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #FFF5F7;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
-            }
-        }
-        .pink-color-2 {
-            .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #FED7E2;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
-            }
-        }
-        .pink-color-3 {
-            .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #FBB6CE;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
-            }
-        }
-        .pink-color-4 {
-            .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #F687B3;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
-            }
-        }
-        .pink-color-5 {
-            .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #ED64A6;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
-            }
-        }
-        .pink-color-6 {
-            .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #D53F8C;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
-            }
-        }
-        .pink-color-7 {
-            .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #B83280;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
-            }
-        }
-        .pink-color-8 {
-            .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #97266D;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
-            }
-        }
-        .pink-color-9 {
-            .color-fill {
-                width: 111px;
-                height: 90px;
-                background-color: #702459;
-            }
-            .color-name {
-                padding: 10px;
-                font-size: 12px;
-                font-family: $familyLato;
+                background-color: $pink900;
             }
         }
     }
 }
+ 
+
+
+
+      

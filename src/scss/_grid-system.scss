@@ -3,7 +3,7 @@
     margin-top: 62px;
     margin-bottom: 100px;
     &-title {
-        font-size: 128px;
+        font-size: $fontSize128;
         letter-spacing: 7.68px;
         font-weight: $fontWeightBold;
         width: 1004px;
@@ -11,7 +11,7 @@
     }
     .lg-display {
         &-title {
-            font-size: 40px;
+            font-size: $fontSize40;
             font-weight: $fontWeightBold;
             letter-spacing: 2.4px;
             width: 1004px;
@@ -19,7 +19,7 @@
             padding: 20px 0;
         }
         &-sub-title {
-            font-size: 32px;
+            font-size: $fontSize32;
             font-weight: $fontWeightBold;
             letter-spacing: 1.92px;
             width: 1004px;
@@ -29,7 +29,7 @@
         .lg-type-1 {
             padding: 20px 0;
             &-title {
-                font-size: 24px;
+                font-size: $fontSize24;
                 font-weight: $fontWeightBold;
                 letter-spacing: 1.44px;
                 width: 1004px;
@@ -37,147 +37,112 @@
                 padding: 20px 0;
             }
             .wrap-container {
+                display: grid;
+                grid-template-areas:
+                'sidebar container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1'
+                
+                'sidebar container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3'
+                
+                'sidebar container-4 container-4 container-4 container-4 container-4 container-4 container-4 container-4 container-5 container-5 container-5 container-5 container-5 container-5 container-5 container-5 container-6 container-6 container-6 container-6 container-6 container-6 container-6 container-6'
+                
+                'sidebar container-7 container-7 container-7 container-7 container-7 container-7 container-8 container-8 container-8 container-8 container-8 container-8  container-9 container-9 container-9 container-9 container-9 container-9 container-10 container-10 container-10 container-10 container-10 container-10'
+                    
+                'sidebar container-11 container-11 container-11 container-11 container-12 container-12 container-12 container-12 container-13 container-13 container-13 container-13 container-14 container-14 container-14 container-14 container-15 container-15 container-15 container-15 container-16 container-16 container-16 container-16'
+                            
+                'sidebar container-17 container-17 container-17 container-18 container-18 container-18 container-19 container-19 container-19 container-20 container-20 container-20 container-21 container-21 container-21 container-22 container-22 container-22 container-23 container-23 container-23 container-24 container-24 container-24';
+                grid-gap: 16px;
+                margin: auto;
                 width: 1280px;
                 height: 800px;
                 border: 1px solid $white;
                 border-radius: 4px;
-                margin: auto;
-                @include flex(row);
+                padding-top: 16px;
+                padding-right: 40px;
                 .sidebar {
-                    width: 105px;
-                    height: 800px;
                     border: 2px solid $white;
                     background-color: $sidebarFill;
+                    margin-top: -16px;
                     border-radius: 4px;
+                    width: 105px;
+                    grid-area: sidebar;
                 }
-                .grid-main {
-                    display: grid;
-                    grid-template-rows: repeat(6, 100px);
-                    grid-template-columns: repeat(24, auto);
-                    grid-gap: 15px;
-                    width: 1139px;
-                    height: 680px;
-                    margin: auto;
-                    .grid-container-1 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 24;
-                    }
-                    .grid-container-2 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 12;
-                    }
-                    .grid-container-3 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 12;
-                    }
-                    .grid-container-4 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 8;
-                    }
-                    .grid-container-5 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 8;
-                    }
-                    .grid-container-6 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 8;
-                    }
-                    .grid-container-7 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-8 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-9 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-10 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-11 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-12 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-13 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-14 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-15 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-16 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-17 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-18 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-19 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-20 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-21 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-22 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-23 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-24 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
+
+                .grid-container {
+                    background-color: $gridFill;
+                    border-radius: 4px;
+                    height: 100px;
+                }
+                .grid-1 {
+                    grid-area: container-1;
+                }
+                .grid-2 {
+                    grid-area: container-2;
+                }
+                .grid-3 {
+                    grid-area: container-3;
+                }
+                .grid-4 {
+                    grid-area: container-4;
+                }
+                .grid-5 {
+                    grid-area: container-5;
+                }
+                .grid-6 {
+                    grid-area: container-6;
+                }
+                .grid-7 {
+                    grid-area: container-7;
+                }
+                .grid-8 {
+                    grid-area: container-8;
+                }
+                .grid-9 {
+                    grid-area: container-9;
+                }
+                .grid-10 {
+                    grid-area: container-10;
+                }
+                .grid-11 {
+                    grid-area: container-11;
+                }
+                .grid-12 {
+                    grid-area: container-12;
+                }
+                .grid-13 {
+                    grid-area: container-13;
+                }
+                .grid-14 {
+                    grid-area: container-14;
+                }
+                .grid-15 {
+                    grid-area: container-15;
+                }
+                .grid-16 {
+                    grid-area: container-16;
+                }
+                .grid-17 {
+                    grid-area: container-17;
+                }
+                .grid-18 {
+                    grid-area: container-18;
+                }
+                .grid-19 {
+                    grid-area: container-19;
+                }
+                .grid-20 {
+                    grid-area: container-20;
+                }
+                .grid-21 {
+                    grid-area: container-21;
+                }
+                .grid-22 {
+                    grid-area: container-22;
+                }
+                .grid-23 {
+                    grid-area: container-23;
+                }
+                .grid-24 {
+                    grid-area: container-24;
                 }
             }
         }
@@ -189,147 +154,112 @@
                 margin: auto;
             }
             .wrap-container {
+                display: grid;
+                grid-template-areas:
+                'sidebar container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1'
+                
+                'sidebar container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3'
+                
+                'sidebar container-4 container-4 container-4 container-4 container-4 container-4 container-4 container-4 container-5 container-5 container-5 container-5 container-5 container-5 container-5 container-5 container-6 container-6 container-6 container-6 container-6 container-6 container-6 container-6'
+                
+                'sidebar container-7 container-7 container-7 container-7 container-7 container-7 container-8 container-8 container-8 container-8 container-8 container-8  container-9 container-9 container-9 container-9 container-9 container-9 container-10 container-10 container-10 container-10 container-10 container-10'
+                    
+                'sidebar container-11 container-11 container-11 container-11 container-12 container-12 container-12 container-12 container-13 container-13 container-13 container-13 container-14 container-14 container-14 container-14 container-15 container-15 container-15 container-15 container-16 container-16 container-16 container-16'
+                            
+                'sidebar container-17 container-17 container-17 container-18 container-18 container-18 container-19 container-19 container-19 container-20 container-20 container-20 container-21 container-21 container-21 container-22 container-22 container-22 container-23 container-23 container-23 container-24 container-24 container-24';
+                grid-gap: 16px;
+                margin: auto;
                 width: 1280px;
                 height: 800px;
                 border: 1px solid $white;
-                margin: auto;
                 border-radius: 4px;
-                @include flex(row);
+                padding-top: 16px;
+                padding-right: 40px;
                 .sidebar {
-                    width: 210px;
-                    height: 800px;
                     border: 2px solid $white;
-                    border-radius: 4px;
                     background-color: $sidebarFill;
+                    margin-top: -16px;
+                    border-radius: 4px;
+                    width: 210px;
+                    grid-area: sidebar;
                 }
-                .grid-main {
-                    display: grid;
-                    grid-template-rows: repeat(6, 100px);
-                    grid-template-columns: repeat(24, auto);
-                    grid-gap: 15px;
-                    width: 1034px;
-                    height: 680px;
-                    margin: auto;
-                    .grid-container-1 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 24;
-                    }
-                    .grid-container-2 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 12;
-                    }
-                    .grid-container-3 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 12;
-                    }
-                    .grid-container-4 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 8;
-                    }
-                    .grid-container-5 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 8;
-                    }
-                    .grid-container-6 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 8;
-                    }
-                    .grid-container-7 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-8 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-9 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-10 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-11 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-12 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-13 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-14 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-15 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-16 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-17 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-18 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-19 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-20 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-21 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-22 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-23 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-24 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
+
+                .grid-container {
+                    background-color: $gridFill;
+                    border-radius: 4px;
+                    height: 100px;
+                }
+                .grid-1 {
+                    grid-area: container-1;
+                }
+                .grid-2 {
+                    grid-area: container-2;
+                }
+                .grid-3 {
+                    grid-area: container-3;
+                }
+                .grid-4 {
+                    grid-area: container-4;
+                }
+                .grid-5 {
+                    grid-area: container-5;
+                }
+                .grid-6 {
+                    grid-area: container-6;
+                }
+                .grid-7 {
+                    grid-area: container-7;
+                }
+                .grid-8 {
+                    grid-area: container-8;
+                }
+                .grid-9 {
+                    grid-area: container-9;
+                }
+                .grid-10 {
+                    grid-area: container-10;
+                }
+                .grid-11 {
+                    grid-area: container-11;
+                }
+                .grid-12 {
+                    grid-area: container-12;
+                }
+                .grid-13 {
+                    grid-area: container-13;
+                }
+                .grid-14 {
+                    grid-area: container-14;
+                }
+                .grid-15 {
+                    grid-area: container-15;
+                }
+                .grid-16 {
+                    grid-area: container-16;
+                }
+                .grid-17 {
+                    grid-area: container-17;
+                }
+                .grid-18 {
+                    grid-area: container-18;
+                }
+                .grid-19 {
+                    grid-area: container-19;
+                }
+                .grid-20 {
+                    grid-area: container-20;
+                }
+                .grid-21 {
+                    grid-area: container-21;
+                }
+                .grid-22 {
+                    grid-area: container-22;
+                }
+                .grid-23 {
+                    grid-area: container-23;
+                }
+                .grid-24 {
+                    grid-area: container-24;
                 }
             }
         }
@@ -341,151 +271,118 @@
                 margin: auto;
             }
             .wrap-container {
+                display: grid;
+                grid-template-areas:
+                'sidebar container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1'
+                
+                'sidebar container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3'
+                
+                'sidebar container-4 container-4 container-4 container-4 container-4 container-4 container-4 container-4 container-5 container-5 container-5 container-5 container-5 container-5 container-5 container-5 container-6 container-6 container-6 container-6 container-6 container-6 container-6 container-6'
+                
+                'sidebar container-7 container-7 container-7 container-7 container-7 container-7 container-8 container-8 container-8 container-8 container-8 container-8  container-9 container-9 container-9 container-9 container-9 container-9 container-10 container-10 container-10 container-10 container-10 container-10'
+                    
+                'sidebar container-11 container-11 container-11 container-11 container-12 container-12 container-12 container-12 container-13 container-13 container-13 container-13 container-14 container-14 container-14 container-14 container-15 container-15 container-15 container-15 container-16 container-16 container-16 container-16'
+                            
+                'sidebar container-17 container-17 container-17 container-18 container-18 container-18 container-19 container-19 container-19 container-20 container-20 container-20 container-21 container-21 container-21 container-22 container-22 container-22 container-23 container-23 container-23 container-24 container-24 container-24';
+                grid-gap: 16px;
+                margin: auto;
                 width: 1280px;
                 height: 800px;
                 border: 1px solid $white;
-                margin: auto;
                 border-radius: 4px;
-                @include flex(row);
+                padding-top: 16px;
+                padding-right: 40px;
                 .sidebar {
-                    width: 315px;
-                    height: 800px;
                     border: 2px solid $white;
-                    border-radius: 4px;
                     background-color: $sidebarFill;
+                    margin-top: -16px;
+                    border-radius: 4px;
+                    width: 315px;
+                    grid-area: sidebar;
                 }
-                .grid-main {
-                    display: grid;
-                    grid-template-rows: repeat(6, 100px);
-                    grid-template-columns: repeat(24, auto);
-                    grid-gap: 15px;
-                    width: 929px;
-                    height: 680px;
-                    margin: auto;
-                    .grid-container-1 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 24;
-                    }
-                    .grid-container-2 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 12;
-                    }
-                    .grid-container-3 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 12;
-                    }
-                    .grid-container-4 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 8;
-                    }
-                    .grid-container-5 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 8;
-                    }
-                    .grid-container-6 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 8;
-                    }
-                    .grid-container-7 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-8 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-9 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-10 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-11 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-12 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-13 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-14 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-15 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-16 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-17 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-18 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-19 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-20 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-21 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-22 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-23 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-24 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
+
+                .grid-container {
+                    background-color: $gridFill;
+                    border-radius: 4px;
+                    height: 100px;
+                }
+                .grid-1 {
+                    grid-area: container-1;
+                }
+                .grid-2 {
+                    grid-area: container-2;
+                }
+                .grid-3 {
+                    grid-area: container-3;
+                }
+                .grid-4 {
+                    grid-area: container-4;
+                }
+                .grid-5 {
+                    grid-area: container-5;
+                }
+                .grid-6 {
+                    grid-area: container-6;
+                }
+                .grid-7 {
+                    grid-area: container-7;
+                }
+                .grid-8 {
+                    grid-area: container-8;
+                }
+                .grid-9 {
+                    grid-area: container-9;
+                }
+                .grid-10 {
+                    grid-area: container-10;
+                }
+                .grid-11 {
+                    grid-area: container-11;
+                }
+                .grid-12 {
+                    grid-area: container-12;
+                }
+                .grid-13 {
+                    grid-area: container-13;
+                }
+                .grid-14 {
+                    grid-area: container-14;
+                }
+                .grid-15 {
+                    grid-area: container-15;
+                }
+                .grid-16 {
+                    grid-area: container-16;
+                }
+                .grid-17 {
+                    grid-area: container-17;
+                }
+                .grid-18 {
+                    grid-area: container-18;
+                }
+                .grid-19 {
+                    grid-area: container-19;
+                }
+                .grid-20 {
+                    grid-area: container-20;
+                }
+                .grid-21 {
+                    grid-area: container-21;
+                }
+                .grid-22 {
+                    grid-area: container-22;
+                }
+                .grid-23 {
+                    grid-area: container-23;
+                }
+                .grid-24 {
+                    grid-area: container-24;
                 }
             }
         }
     }
+
+    
     .md-display {
         margin-top: 20px;
         &-title {
@@ -516,105 +413,86 @@
             .wrap-container {
                 width: 1024px;
                 height: 633px;
+                display: grid;
+                grid-template-areas:
+                'sidebar container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1'
+                
+                'sidebar container-2 container-2 container-2 container-2 container-2 container-2 container-3 container-3 container-3 container-3 container-3 container-3 '
+                
+                'sidebar container-4 container-4 container-4 container-4 container-5 container-5 container-5 container-5 container-6 container-6 container-6 container-6'
+                
+                'sidebar container-7 container-7 container-7 container-8 container-8 container-8 container-9 container-9 container-9 container-10 container-10 container-10'
+                    
+                'sidebar container-11 container-11 container-12 container-12 container-13 container-13 container-14 container-14 container-15 container-15 container-16 container-16';
+                            
+                
+                grid-gap: 16px;
                 margin: auto;
                 border: 1px solid $white;
                 border-radius: 4px;
-                @include flex(row);
+                padding-top: 16px;
+                padding-right: 40px;
                 .sidebar {
-                    width: 126px;
-                    height: 633px;
                     border: 2px solid $white;
-                    border-radius: 4px;
                     background-color: $sidebarFill;
+                    margin-top: -16px;
+                    border-radius: 4px;
+                    width: 126px;
+                    grid-area: sidebar;
                 }
-                .grid-main {
-                    display: grid;
-                    grid-template-rows: repeat(5, 100px);
-                    grid-template-columns: repeat(12, auto);
-                    grid-gap: 15px;
-                    width: 866px;
-                    height: 564px;
-                    margin: auto;
-                    .grid-container-1 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 12;
-                    }
-                    .grid-container-2 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-3 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-4 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-5 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-6 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-7 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-8 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-9 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-10 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-11 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 2;
-                    }
-                    .grid-container-12 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 2;
-                    }
-                    .grid-container-13 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 2;
-                    }
-                    .grid-container-14 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 2;
-                    }
-                    .grid-container-15 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 2;
-                    }
-                    .grid-container-16 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 2;
-                    }
+
+                .grid-container {
+                    background-color: $gridFill;
+                    border-radius: 4px;
+                    height: 100px;
+                }
+                .grid-1 {
+                    grid-area: container-1;
+                }
+                .grid-2 {
+                    grid-area: container-2;
+                }
+                .grid-3 {
+                    grid-area: container-3;
+                }
+                .grid-4 {
+                    grid-area: container-4;
+                }
+                .grid-5 {
+                    grid-area: container-5;
+                }
+                .grid-6 {
+                    grid-area: container-6;
+                }
+                .grid-7 {
+                    grid-area: container-7;
+                }
+                .grid-8 {
+                    grid-area: container-8;
+                }
+                .grid-9 {
+                    grid-area: container-9;
+                }
+                .grid-10 {
+                    grid-area: container-10;
+                }
+                .grid-11 {
+                    grid-area: container-11;
+                }
+                .grid-12 {
+                    grid-area: container-12;
+                }
+                .grid-13 {
+                    grid-area: container-13;
+                }
+                .grid-14 {
+                    grid-area: container-14;
+                }
+                .grid-15 {
+                    grid-area: container-15;
+                }
+                .grid-16 {
+                    grid-area: container-16;
                 }
             }
         }
@@ -630,106 +508,87 @@
             .wrap-container {
                 width: 1024px;
                 height: 633px;
+                display: grid;
+                grid-template-areas:
+                'sidebar container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1'
+                
+                'sidebar container-2 container-2 container-2 container-2 container-2 container-2 container-3 container-3 container-3 container-3 container-3 container-3 '
+                
+                'sidebar container-4 container-4 container-4 container-4 container-5 container-5 container-5 container-5 container-6 container-6 container-6 container-6'
+                
+                'sidebar container-7 container-7 container-7 container-8 container-8 container-8 container-9 container-9 container-9 container-10 container-10 container-10'
+                    
+                'sidebar container-11 container-11 container-12 container-12 container-13 container-13 container-14 container-14 container-15 container-15 container-16 container-16';
+                            
+                
+                grid-gap: 16px;
                 margin: auto;
                 border: 1px solid $white;
                 border-radius: 4px;
-                @include flex(row);
+                padding-top: 16px;
+                padding-right: 40px;
                 .sidebar {
-                    width: 252px;
-                    height: 633px;
                     border: 2px solid $white;
-                    border-radius: 4px;
                     background-color: $sidebarFill;
+                    margin-top: -16px;
+                    border-radius: 4px;
+                    width: 252px;
+                    grid-area: sidebar;
                 }
-                .grid-main {
-                    display: grid;
-                    grid-template-rows: repeat(5, 100px);
-                    grid-template-columns: repeat(12, auto);
-                    grid-gap: 15px;
-                    width: 740px;
-                    height: 564px;
-                    margin: auto;
-                    .grid-container-1 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 12;
-                    }
-                    .grid-container-2 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-3 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 6;
-                    }
-                    .grid-container-4 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-5 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-6 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 4;
-                    }
-                    .grid-container-7 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-8 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-9 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-10 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 3;
-                    }
-                    .grid-container-11 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 2;
-                    }
-                    .grid-container-12 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 2;
-                    }
-                    .grid-container-13 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 2;
-                    }
-                    .grid-container-14 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 2;
-                    }
-                    .grid-container-15 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 2;
-                    }
-                    .grid-container-16 {
-                        background-color: $gridFill;
-                        border-radius: 4px;
-                        grid-column: span 2;
-                    }
-                }    
+
+                .grid-container {
+                    background-color: $gridFill;
+                    border-radius: 4px;
+                    height: 100px;
+                }
+                .grid-1 {
+                    grid-area: container-1;
+                }
+                .grid-2 {
+                    grid-area: container-2;
+                }
+                .grid-3 {
+                    grid-area: container-3;
+                }
+                .grid-4 {
+                    grid-area: container-4;
+                }
+                .grid-5 {
+                    grid-area: container-5;
+                }
+                .grid-6 {
+                    grid-area: container-6;
+                }
+                .grid-7 {
+                    grid-area: container-7;
+                }
+                .grid-8 {
+                    grid-area: container-8;
+                }
+                .grid-9 {
+                    grid-area: container-9;
+                }
+                .grid-10 {
+                    grid-area: container-10;
+                }
+                .grid-11 {
+                    grid-area: container-11;
+                }
+                .grid-12 {
+                    grid-area: container-12;
+                }
+                .grid-13 {
+                    grid-area: container-13;
+                }
+                .grid-14 {
+                    grid-area: container-14;
+                }
+                .grid-15 {
+                    grid-area: container-15;
+                }
+                .grid-16 {
+                    grid-area: container-16;
+                }
             }
         }
     }

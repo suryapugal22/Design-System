@@ -104,6 +104,7 @@ a {
 .typography-hero .scroll-down {
   text-align: center;
   font-size: 20px;
+  color: #FFFFFE;
 }
 
 .typography-hero .scroll-down a {
@@ -158,14 +159,14 @@ a {
   padding: 20px 0;
 }
 
-.typography .heading-1-align-model .left-align-text-normal, .typography .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .right-align-text-normal, .typography .heading-1-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-1-align-model .right-align-text-normal, .typography .heading-1-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-1-align-model .right-align-text-normal, .typography .heading-1-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-1-align-model .right-align-text-normal, .typography .heading-1-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-1-align-model .right-align-text-lighter {
+.typography .heading-1-align-model .left-align-text-normal, .typography .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .right-align-text-normal, .typography .heading-1-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-1-align-model .right-align-text-normal, .typography .heading-1-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-1-align-model .right-align-text-normal, .typography .heading-1-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-1-align-model .right-align-text-normal {
   width: 324px;
   letter-spacing: 1.73px;
   font-weight: normal;
   padding: 20px 0;
 }
 
-.typography .heading-1-align-model .left-align-text-lighter, .typography .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-1-align-model .center-align-text-lighter {
+.typography .heading-1-align-model .left-align-text-lighter, .typography .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-1-align-model .right-align-text-lighter {
   width: 324px;
   letter-spacing: 1.73px;
   font-weight: 300;
@@ -178,16 +179,7 @@ a {
 }
 
 .typography .heading-1-align-model .center-align-text-bold {
-  width: 324px;
   padding-top: 100px;
-}
-
-.typography .heading-1-align-model .center-align-text-normal {
-  width: 324px;
-}
-
-.typography .heading-1-align-model .center-align-text-lighter {
-  width: 324px;
 }
 
 .typography .heading-1-align-model .right-align {
@@ -195,16 +187,7 @@ a {
 }
 
 .typography .heading-1-align-model .right-align-text-bold {
-  width: 324px;
   padding-top: 100px;
-}
-
-.typography .heading-1-align-model .right-align-text-normal {
-  width: 324px;
-}
-
-.typography .heading-1-align-model .right-align-text-lighter {
-  width: 324px;
 }
 
 .typography .heading-2-align-model {
@@ -237,7 +220,7 @@ a {
   padding: 20px 0;
 }
 
-.typography .heading-2-align-model .left-align-text-normal, .typography .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .right-align-text-normal, .typography .heading-2-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-2-align-model .right-align-text-normal, .typography .heading-2-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-2-align-model .right-align-text-normal, .typography .heading-2-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-2-align-model .right-align-text-normal, .typography .heading-2-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-2-align-model .right-align-text-lighter {
+.typography .heading-2-align-model .left-align-text-normal, .typography .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .right-align-text-normal, .typography .heading-2-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-2-align-model .right-align-text-normal, .typography .heading-2-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-2-align-model .right-align-text-normal, .typography .heading-2-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-2-align-model .right-align-text-normal {
   width: 324px;
   font-size: 25.63px;
   letter-spacing: 1.54px;
@@ -245,7 +228,7 @@ a {
   padding: 20px 0;
 }
 
-.typography .heading-2-align-model .left-align-text-lighter, .typography .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-2-align-model .center-align-text-lighter {
+.typography .heading-2-align-model .left-align-text-lighter, .typography .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-2-align-model .right-align-text-lighter {
   width: 324px;
   font-size: 25.63px;
   letter-spacing: 1.54px;
@@ -300,7 +283,7 @@ a {
   width: 324px;
 }
 
-.typography .heading-3-align-model .left-align-text-normal, .typography .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .right-align-text-normal, .typography .heading-3-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-3-align-model .right-align-text-normal, .typography .heading-3-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-3-align-model .right-align-text-normal, .typography .heading-3-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-3-align-model .right-align-text-normal, .typography .heading-3-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-3-align-model .right-align-text-lighter {
+.typography .heading-3-align-model .left-align-text-normal, .typography .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .right-align-text-normal, .typography .heading-3-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-3-align-model .right-align-text-normal, .typography .heading-3-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-3-align-model .right-align-text-normal, .typography .heading-3-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-3-align-model .right-align-text-normal {
   font-size: 22.78px;
   font-weight: normal;
   padding: 20px 0;
@@ -308,7 +291,7 @@ a {
   width: 324px;
 }
 
-.typography .heading-3-align-model .left-align-text-lighter, .typography .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-3-align-model .center-align-text-lighter {
+.typography .heading-3-align-model .left-align-text-lighter, .typography .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-3-align-model .right-align-text-lighter {
   font-size: 22.78px;
   font-weight: 300;
   padding: 20px 0;
@@ -360,7 +343,7 @@ a {
   width: 324px;
 }
 
-.typography .heading-4-align-model .left-align-text-normal, .typography .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .right-align-text-normal, .typography .heading-4-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-4-align-model .right-align-text-normal, .typography .heading-4-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-4-align-model .right-align-text-normal, .typography .heading-4-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-4-align-model .right-align-text-normal, .typography .heading-4-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-4-align-model .right-align-text-lighter {
+.typography .heading-4-align-model .left-align-text-normal, .typography .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .right-align-text-normal, .typography .heading-4-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-4-align-model .right-align-text-normal, .typography .heading-4-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-4-align-model .right-align-text-normal, .typography .heading-4-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-4-align-model .right-align-text-normal {
   font-size: 20.25px;
   font-weight: normal;
   letter-spacing: 1.22px;
@@ -368,7 +351,7 @@ a {
   width: 324px;
 }
 
-.typography .heading-4-align-model .left-align-text-lighter, .typography .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-4-align-model .center-align-text-lighter {
+.typography .heading-4-align-model .left-align-text-lighter, .typography .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-4-align-model .right-align-text-lighter {
   font-size: 20.25px;
   font-weight: 300;
   letter-spacing: 1.22px;
@@ -423,7 +406,7 @@ a {
   width: 324px;
 }
 
-.typography .heading-5-align-model .left-align-text-normal, .typography .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .right-align-text-normal, .typography .heading-5-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-5-align-model .right-align-text-normal, .typography .heading-5-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-5-align-model .right-align-text-normal, .typography .heading-5-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-5-align-model .right-align-text-normal, .typography .heading-5-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-5-align-model .right-align-text-lighter {
+.typography .heading-5-align-model .left-align-text-normal, .typography .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .right-align-text-normal, .typography .heading-5-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-5-align-model .right-align-text-normal, .typography .heading-5-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-5-align-model .right-align-text-normal, .typography .heading-5-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-5-align-model .right-align-text-normal {
   font-size: 18px;
   font-weight: normal;
   letter-spacing: 1.08px;
@@ -431,7 +414,7 @@ a {
   width: 324px;
 }
 
-.typography .heading-5-align-model .left-align-text-lighter, .typography .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-5-align-model .center-align-text-lighter {
+.typography .heading-5-align-model .left-align-text-lighter, .typography .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-5-align-model .right-align-text-lighter {
   font-size: 18px;
   width: 324px;
   font-weight: 300;
@@ -486,7 +469,7 @@ a {
   padding: 20px 0;
 }
 
-.typography .heading .paragraph-align-model .left-align-text-normal, .typography .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .paragraph-align-model .right-align-text-lighter {
+.typography .heading .paragraph-align-model .left-align-text-normal, .typography .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .right-align-text-normal {
   font-size: 16px;
   letter-spacing: 0.96px;
   width: 325px;
@@ -550,7 +533,7 @@ a {
   font-weight: 600;
 }
 
-.typography .heading .small-align-model .left-align-text-normal, .typography .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .small-align-model .center-align-text-lighter {
+.typography .heading .small-align-model .left-align-text-normal, .typography .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .right-align-text-normal {
   display: inline-block;
   font-size: 14.22px;
   width: 325px;
@@ -559,7 +542,7 @@ a {
   font-weight: normal;
 }
 
-.typography .heading .small-align-model .left-align-text-lighter, .typography .heading .small-align-model .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .center-align-text-lighter {
+.typography .heading .small-align-model .left-align-text-lighter, .typography .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .right-align-text-lighter {
   display: inline-block;
   font-size: 14.22px;
   width: 325px;
@@ -614,7 +597,7 @@ a {
   font-weight: 600;
 }
 
-.typography .heading .tiny-align-model .left-align-text-normal, .typography .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .right-align-text-lighter {
+.typography .heading .tiny-align-model .left-align-text-normal, .typography .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .right-align-text-normal {
   display: inline-block;
   font-size: 12.64px;
   letter-spacing: 0.76px;
@@ -623,7 +606,7 @@ a {
   font-weight: normal;
 }
 
-.typography .heading .tiny-align-model .left-align-text-lighter, .typography .heading .tiny-align-model .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .tiny-align-model .center-align-text-lighter {
+.typography .heading .tiny-align-model .left-align-text-lighter, .typography .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .right-align-text-lighter {
   display: inline-block;
   font-size: 12.64px;
   letter-spacing: 0.76px;
@@ -664,1090 +647,385 @@ a {
 .color-palatte .color-model {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto auto auto auto auto auto auto;
-      grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  -ms-grid-columns: (auto)[9];
+      grid-template-columns: repeat(9, auto);
   grid-gap: 60px 0px;
   margin: 80px 0;
 }
 
-.color-palatte .color-model .gray-color-1 .color-fill {
+.color-palatte .color-model .color .color-fill {
   width: 111px;
   height: 90px;
+}
+
+.color-palatte .color-model .color .color-name {
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.color-palatte .color-model .ff-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-palatte .color-model .gray-1 .color-fill {
   background-color: #F7FAFC;
 }
 
-.color-palatte .color-model .gray-color-1 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .gray-color-2 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .gray-2 .color-fill {
   background-color: #EDF2F7;
 }
 
-.color-palatte .color-model .gray-color-2 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .gray-color-3 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .gray-3 .color-fill {
   background-color: #E2E8F0;
 }
 
-.color-palatte .color-model .gray-color-3 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .gray-color-4 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .gray-4 .color-fill {
   background-color: #CBD5E0;
 }
 
-.color-palatte .color-model .gray-color-4 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .gray-color-5 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .gray-5 .color-fill {
   background-color: #A0AEC0;
 }
 
-.color-palatte .color-model .gray-color-5 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .gray-color-6 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .gray-6 .color-fill {
   background-color: #718096;
 }
 
-.color-palatte .color-model .gray-color-6 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .gray-color-7 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .gray-7 .color-fill {
   background-color: #4A5568;
 }
 
-.color-palatte .color-model .gray-color-7 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .gray-color-8 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .gray-8 .color-fill {
   background-color: #2D3748;
 }
 
-.color-palatte .color-model .gray-color-8 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .gray-color-9 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .gray-9 .color-fill {
   background-color: #1A202C;
 }
 
-.color-palatte .color-model .gray-color-9 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .red-color-1 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .red-1 .color-fill {
   background-color: #FFF5F5;
 }
 
-.color-palatte .color-model .red-color-1 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .red-color-2 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .red-2 .color-fill {
   background-color: #FED7D7;
 }
 
-.color-palatte .color-model .red-color-2 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .red-color-3 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .red-3 .color-fill {
   background-color: #FEB2B2;
 }
 
-.color-palatte .color-model .red-color-3 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .red-color-4 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .red-4 .color-fill {
   background-color: #FC8181;
 }
 
-.color-palatte .color-model .red-color-4 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .red-color-5 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .red-5 .color-fill {
   background-color: #F56565;
 }
 
-.color-palatte .color-model .red-color-5 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .red-color-6 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .red-6 .color-fill {
   background-color: #E53E3E;
 }
 
-.color-palatte .color-model .red-color-6 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .red-color-7 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .red-7 .color-fill {
   background-color: #C53030;
 }
 
-.color-palatte .color-model .red-color-7 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .red-color-8 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .red-8 .color-fill {
   background-color: #9B2C2C;
 }
 
-.color-palatte .color-model .red-color-8 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .red-color-9 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .red-9 .color-fill {
   background-color: #742A2A;
 }
 
-.color-palatte .color-model .red-color-9 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .orange-color-1 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .orange-1 .color-fill {
   background-color: #FFFAF0;
 }
 
-.color-palatte .color-model .orange-color-1 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .orange-color-2 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .orange-2 .color-fill {
   background-color: #FEEBC8;
 }
 
-.color-palatte .color-model .orange-color-2 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .orange-color-3 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .orange-3 .color-fill {
   background-color: #FBD38D;
 }
 
-.color-palatte .color-model .orange-color-3 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .orange-color-4 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .orange-4 .color-fill {
   background-color: #F6AD55;
 }
 
-.color-palatte .color-model .orange-color-4 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .orange-color-5 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .orange-5 .color-fill {
   background-color: #ED8936;
 }
 
-.color-palatte .color-model .orange-color-5 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .orange-color-6 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .orange-6 .color-fill {
   background-color: #DD6B20;
 }
 
-.color-palatte .color-model .orange-color-6 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .orange-color-7 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .orange-7 .color-fill {
   background-color: #C05621;
 }
 
-.color-palatte .color-model .orange-color-7 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .orange-color-8 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .orange-8 .color-fill {
   background-color: #9C4221;
 }
 
-.color-palatte .color-model .orange-color-8 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .orange-color-9 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .orange-9 .color-fill {
   background-color: #7B341E;
 }
 
-.color-palatte .color-model .orange-color-9 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.color-palatte .color-model .yellow-color-1 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .yellow-1 .color-fill {
   background-color: #FFFFF0;
 }
 
-.color-palatte .color-model .yellow-color-1 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .yellow-color-2 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .yellow-2 .color-fill {
   background-color: #FEFCBF;
 }
 
-.color-palatte .color-model .yellow-color-2 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .yellow-color-3 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .yellow-3 .color-fill {
   background-color: #FAF089;
 }
 
-.color-palatte .color-model .yellow-color-3 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .yellow-color-4 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .yellow-4 .color-fill {
   background-color: #F6E05E;
 }
 
-.color-palatte .color-model .yellow-color-4 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .yellow-color-5 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .yellow-5 .color-fill {
   background-color: #ECC94B;
 }
 
-.color-palatte .color-model .yellow-color-5 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .yellow-color-6 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .yellow-6 .color-fill {
   background-color: #D69E2E;
 }
 
-.color-palatte .color-model .yellow-color-6 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .yellow-color-7 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .yellow-7 .color-fill {
   background-color: #B7791F;
 }
 
-.color-palatte .color-model .yellow-color-7 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .yellow-color-8 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .yellow-8 .color-fill {
   background-color: #975A16;
 }
 
-.color-palatte .color-model .yellow-color-8 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .yellow-color-9 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .yellow-9 .color-fill {
   background-color: #744210;
 }
 
-.color-palatte .color-model .yellow-color-9 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .green-color-1 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .green-1 .color-fill {
   background-color: #F0FFF4;
 }
 
-.color-palatte .color-model .green-color-1 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .green-color-2 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .green-2 .color-fill {
   background-color: #C6F6D5;
 }
 
-.color-palatte .color-model .green-color-2 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .green-color-3 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .green-3 .color-fill {
   background-color: #9AE6B4;
 }
 
-.color-palatte .color-model .green-color-3 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .green-color-4 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .green-4 .color-fill {
   background-color: #68D391;
 }
 
-.color-palatte .color-model .green-color-4 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .green-color-5 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .green-5 .color-fill {
   background-color: #48BB78;
 }
 
-.color-palatte .color-model .green-color-5 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .green-color-6 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .green-6 .color-fill {
   background-color: #38A169;
 }
 
-.color-palatte .color-model .green-color-6 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .green-color-7 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .green-7 .color-fill {
   background-color: #2F855A;
 }
 
-.color-palatte .color-model .green-color-7 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .green-color-8 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .green-8 .color-fill {
   background-color: #276749;
 }
 
-.color-palatte .color-model .green-color-8 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .green-color-9 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .green-9 .color-fill {
   background-color: #22543D;
 }
 
-.color-palatte .color-model .green-color-9 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .teal-color-1 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .teal-1 .color-fill {
   background-color: #E6FFFA;
 }
 
-.color-palatte .color-model .teal-color-1 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .teal-color-2 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .teal-2 .color-fill {
   background-color: #B2F5EA;
 }
 
-.color-palatte .color-model .teal-color-2 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .teal-color-3 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .teal-3 .color-fill {
   background-color: #81E6D9;
 }
 
-.color-palatte .color-model .teal-color-3 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .teal-color-4 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .teal-4 .color-fill {
   background-color: #4FD1C5;
 }
 
-.color-palatte .color-model .teal-color-4 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .teal-color-5 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .teal-5 .color-fill {
   background-color: #38B2AC;
 }
 
-.color-palatte .color-model .teal-color-5 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .teal-color-6 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .teal-6 .color-fill {
   background-color: #319795;
 }
 
-.color-palatte .color-model .teal-color-6 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .teal-color-7 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .teal-7 .color-fill {
   background-color: #2C7A7B;
 }
 
-.color-palatte .color-model .teal-color-7 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .teal-color-8 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .teal-8 .color-fill {
   background-color: #285E61;
 }
 
-.color-palatte .color-model .teal-color-8 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .teal-color-9 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .teal-9 .color-fill {
   background-color: #234E52;
 }
 
-.color-palatte .color-model .teal-color-9 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .blue-color-1 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .blue-1 .color-fill {
   background-color: #EBF8FF;
 }
 
-.color-palatte .color-model .blue-color-1 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .blue-color-2 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .blue-2 .color-fill {
   background-color: #BEE3F8;
 }
 
-.color-palatte .color-model .blue-color-2 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .blue-color-3 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .blue-3 .color-fill {
   background-color: #90CDF4;
 }
 
-.color-palatte .color-model .blue-color-3 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .blue-color-4 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .blue-4 .color-fill {
   background-color: #63B3ED;
 }
 
-.color-palatte .color-model .blue-color-4 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .blue-color-5 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .blue-5 .color-fill {
   background-color: #4299E1;
 }
 
-.color-palatte .color-model .blue-color-5 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .blue-color-6 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .blue-6 .color-fill {
   background-color: #3182CE;
 }
 
-.color-palatte .color-model .blue-color-6 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .blue-color-7 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .blue-7 .color-fill {
   background-color: #2B6CB0;
 }
 
-.color-palatte .color-model .blue-color-7 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .blue-color-8 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .blue-8 .color-fill {
   background-color: #2C5282;
 }
 
-.color-palatte .color-model .blue-color-8 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .blue-color-9 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .blue-9 .color-fill {
   background-color: #2A4365;
 }
 
-.color-palatte .color-model .blue-color-9 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .indigo-color-1 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .indigo-1 .color-fill {
   background-color: #EBF4FF;
 }
 
-.color-palatte .color-model .indigo-color-1 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .indigo-color-2 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .indigo-2 .color-fill {
   background-color: #C3DAFE;
 }
 
-.color-palatte .color-model .indigo-color-2 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .indigo-color-3 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .indigo-3 .color-fill {
   background-color: #A3BFFA;
 }
 
-.color-palatte .color-model .indigo-color-3 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .indigo-color-4 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .indigo-4 .color-fill {
   background-color: #7F9CF5;
 }
 
-.color-palatte .color-model .indigo-color-4 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .indigo-color-5 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .indigo-5 .color-fill {
   background-color: #667EEA;
 }
 
-.color-palatte .color-model .indigo-color-5 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .indigo-color-6 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .indigo-6 .color-fill {
   background-color: #5A67D8;
 }
 
-.color-palatte .color-model .indigo-color-6 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .indigo-color-7 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .indigo-7 .color-fill {
   background-color: #4C51BF;
 }
 
-.color-palatte .color-model .indigo-color-7 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .indigo-color-8 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .indigo-8 .color-fill {
   background-color: #434190;
 }
 
-.color-palatte .color-model .indigo-color-8 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .indigo-color-9 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .indigo-9 .color-fill {
   background-color: #3C366B;
 }
 
-.color-palatte .color-model .indigo-color-9 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .purple-color-1 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .purple-1 .color-fill {
   background-color: #FAF5FF;
 }
 
-.color-palatte .color-model .purple-color-1 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .purple-color-2 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .purple-2 .color-fill {
   background-color: #E9D8FD;
 }
 
-.color-palatte .color-model .purple-color-2 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .purple-color-3 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .purple-3 .color-fill {
   background-color: #D6BCFA;
 }
 
-.color-palatte .color-model .purple-color-3 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .purple-color-4 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .purple-4 .color-fill {
   background-color: #B794F4;
 }
 
-.color-palatte .color-model .purple-color-4 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .purple-color-5 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .purple-5 .color-fill {
   background-color: #9F7AEA;
 }
 
-.color-palatte .color-model .purple-color-5 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .purple-color-6 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .purple-6 .color-fill {
   background-color: #805AD5;
 }
 
-.color-palatte .color-model .purple-color-6 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .purple-color-7 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .purple-7 .color-fill {
   background-color: #6B46C1;
 }
 
-.color-palatte .color-model .purple-color-7 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .purple-color-8 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .purple-8 .color-fill {
   background-color: #553C9A;
 }
 
-.color-palatte .color-model .purple-color-8 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .purple-color-9 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .purple-9 .color-fill {
   background-color: #44337A;
 }
 
-.color-palatte .color-model .purple-color-9 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .pink-color-1 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .pink-1 .color-fill {
   background-color: #FFF5F7;
 }
 
-.color-palatte .color-model .pink-color-1 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .pink-color-2 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .pink-2 .color-fill {
   background-color: #FED7E2;
 }
 
-.color-palatte .color-model .pink-color-2 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .pink-color-3 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .pink-3 .color-fill {
   background-color: #FBB6CE;
 }
 
-.color-palatte .color-model .pink-color-3 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .pink-color-4 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .pink-4 .color-fill {
   background-color: #F687B3;
 }
 
-.color-palatte .color-model .pink-color-4 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .pink-color-5 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .pink-5 .color-fill {
   background-color: #ED64A6;
 }
 
-.color-palatte .color-model .pink-color-5 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .pink-color-6 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .pink-6 .color-fill {
   background-color: #D53F8C;
 }
 
-.color-palatte .color-model .pink-color-6 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .pink-color-7 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .pink-7 .color-fill {
   background-color: #B83280;
 }
 
-.color-palatte .color-model .pink-color-7 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .pink-color-8 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .pink-8 .color-fill {
   background-color: #97266D;
 }
 
-.color-palatte .color-model .pink-color-8 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-}
-
-.color-palatte .color-model .pink-color-9 .color-fill {
-  width: 111px;
-  height: 90px;
+.color-palatte .color-model .pink-9 .color-fill {
   background-color: #702459;
-}
-
-.color-palatte .color-model .pink-color-9 .color-name {
-  padding: 10px;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
 }
 
 .grid-system {
@@ -1796,183 +1074,203 @@ a {
 }
 
 .grid-system .lg-display .lg-type-1 .wrap-container {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'sidebar container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1'  'sidebar container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3'  'sidebar container-4 container-4 container-4 container-4 container-4 container-4 container-4 container-4 container-5 container-5 container-5 container-5 container-5 container-5 container-5 container-5 container-6 container-6 container-6 container-6 container-6 container-6 container-6 container-6'  'sidebar container-7 container-7 container-7 container-7 container-7 container-7 container-8 container-8 container-8 container-8 container-8 container-8  container-9 container-9 container-9 container-9 container-9 container-9 container-10 container-10 container-10 container-10 container-10 container-10'  'sidebar container-11 container-11 container-11 container-11 container-12 container-12 container-12 container-12 container-13 container-13 container-13 container-13 container-14 container-14 container-14 container-14 container-15 container-15 container-15 container-15 container-16 container-16 container-16 container-16'  'sidebar container-17 container-17 container-17 container-18 container-18 container-18 container-19 container-19 container-19 container-20 container-20 container-20 container-21 container-21 container-21 container-22 container-22 container-22 container-23 container-23 container-23 container-24 container-24 container-24';
+  grid-gap: 16px;
+  margin: auto;
   width: 1280px;
   height: 800px;
   border: 1px solid #FFFFFE;
   border-radius: 4px;
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  padding-top: 16px;
+  padding-right: 40px;
 }
 
 .grid-system .lg-display .lg-type-1 .wrap-container .sidebar {
-  width: 105px;
-  height: 800px;
   border: 2px solid #FFFFFE;
   background-color: #1A2630;
+  margin-top: -16px;
   border-radius: 4px;
+  width: 105px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: sidebar;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: (100px)[6];
-      grid-template-rows: repeat(6, 100px);
-  -ms-grid-columns: (auto)[24];
-      grid-template-columns: repeat(24, auto);
-  grid-gap: 15px;
-  width: 1139px;
-  height: 680px;
-  margin: auto;
-}
-
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-1 {
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-container {
   background-color: #9EAFC1;
   border-radius: 4px;
-  grid-column: span 24;
+  height: 100px;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-2 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 12;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 12;
+  grid-area: container-1;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-3 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 12;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 6;
+  grid-area: container-2;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-4 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 8;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 6;
+  grid-area: container-3;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-5 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 8;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-area: container-4;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-6 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 8;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 4;
+  grid-area: container-5;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-7 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 4;
+  grid-area: container-6;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-8 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-7 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: container-7;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-9 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-8 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-area: container-8;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-10 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-9 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 3;
+  grid-area: container-9;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-11 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-10 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 3;
+  grid-area: container-10;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-12 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-11 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: container-11;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-13 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-12 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-area: container-12;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-14 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-13 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: container-13;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-15 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-14 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 2;
+  grid-area: container-14;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-16 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-15 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 2;
+  grid-area: container-15;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-17 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-16 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 12;
+  -ms-grid-column-span: 2;
+  grid-area: container-16;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-18 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-17 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: container-17;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-19 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-18 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-area: container-18;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-20 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-19 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 3;
+  grid-area: container-19;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-21 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-20 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 3;
+  grid-area: container-20;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-22 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-21 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 14;
+  -ms-grid-column-span: 3;
+  grid-area: container-21;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-23 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-22 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 17;
+  -ms-grid-column-span: 3;
+  grid-area: container-22;
 }
 
-.grid-system .lg-display .lg-type-1 .wrap-container .grid-main .grid-container-24 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-23 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 20;
+  -ms-grid-column-span: 3;
+  grid-area: container-23;
+}
+
+.grid-system .lg-display .lg-type-1 .wrap-container .grid-24 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 23;
+  -ms-grid-column-span: 3;
+  grid-area: container-24;
 }
 
 .grid-system .lg-display .lg-type-2 {
@@ -1986,183 +1284,203 @@ a {
 }
 
 .grid-system .lg-display .lg-type-2 .wrap-container {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'sidebar container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1'  'sidebar container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3'  'sidebar container-4 container-4 container-4 container-4 container-4 container-4 container-4 container-4 container-5 container-5 container-5 container-5 container-5 container-5 container-5 container-5 container-6 container-6 container-6 container-6 container-6 container-6 container-6 container-6'  'sidebar container-7 container-7 container-7 container-7 container-7 container-7 container-8 container-8 container-8 container-8 container-8 container-8  container-9 container-9 container-9 container-9 container-9 container-9 container-10 container-10 container-10 container-10 container-10 container-10'  'sidebar container-11 container-11 container-11 container-11 container-12 container-12 container-12 container-12 container-13 container-13 container-13 container-13 container-14 container-14 container-14 container-14 container-15 container-15 container-15 container-15 container-16 container-16 container-16 container-16'  'sidebar container-17 container-17 container-17 container-18 container-18 container-18 container-19 container-19 container-19 container-20 container-20 container-20 container-21 container-21 container-21 container-22 container-22 container-22 container-23 container-23 container-23 container-24 container-24 container-24';
+  grid-gap: 16px;
+  margin: auto;
   width: 1280px;
   height: 800px;
   border: 1px solid #FFFFFE;
-  margin: auto;
   border-radius: 4px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  padding-top: 16px;
+  padding-right: 40px;
 }
 
 .grid-system .lg-display .lg-type-2 .wrap-container .sidebar {
-  width: 210px;
-  height: 800px;
   border: 2px solid #FFFFFE;
-  border-radius: 4px;
   background-color: #1A2630;
+  margin-top: -16px;
+  border-radius: 4px;
+  width: 210px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: sidebar;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: (100px)[6];
-      grid-template-rows: repeat(6, 100px);
-  -ms-grid-columns: (auto)[24];
-      grid-template-columns: repeat(24, auto);
-  grid-gap: 15px;
-  width: 1034px;
-  height: 680px;
-  margin: auto;
-}
-
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-1 {
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-container {
   background-color: #9EAFC1;
   border-radius: 4px;
-  grid-column: span 24;
+  height: 100px;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-2 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 12;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 12;
+  grid-area: container-1;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-3 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 12;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 6;
+  grid-area: container-2;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-4 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 8;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 6;
+  grid-area: container-3;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-5 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 8;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-area: container-4;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-6 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 8;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 4;
+  grid-area: container-5;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-7 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 4;
+  grid-area: container-6;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-8 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-7 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: container-7;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-9 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-8 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-area: container-8;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-10 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-9 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 3;
+  grid-area: container-9;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-11 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-10 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 3;
+  grid-area: container-10;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-12 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-11 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: container-11;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-13 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-12 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-area: container-12;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-14 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-13 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: container-13;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-15 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-14 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 2;
+  grid-area: container-14;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-16 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-15 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 2;
+  grid-area: container-15;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-17 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-16 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 12;
+  -ms-grid-column-span: 2;
+  grid-area: container-16;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-18 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-17 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: container-17;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-19 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-18 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-area: container-18;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-20 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-19 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 3;
+  grid-area: container-19;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-21 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-20 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 3;
+  grid-area: container-20;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-22 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-21 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 14;
+  -ms-grid-column-span: 3;
+  grid-area: container-21;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-23 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-22 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 17;
+  -ms-grid-column-span: 3;
+  grid-area: container-22;
 }
 
-.grid-system .lg-display .lg-type-2 .wrap-container .grid-main .grid-container-24 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-23 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 20;
+  -ms-grid-column-span: 3;
+  grid-area: container-23;
+}
+
+.grid-system .lg-display .lg-type-2 .wrap-container .grid-24 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 23;
+  -ms-grid-column-span: 3;
+  grid-area: container-24;
 }
 
 .grid-system .lg-display .lg-type-3 {
@@ -2176,183 +1494,203 @@ a {
 }
 
 .grid-system .lg-display .lg-type-3 .wrap-container {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'sidebar container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1'  'sidebar container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-2 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3 container-3'  'sidebar container-4 container-4 container-4 container-4 container-4 container-4 container-4 container-4 container-5 container-5 container-5 container-5 container-5 container-5 container-5 container-5 container-6 container-6 container-6 container-6 container-6 container-6 container-6 container-6'  'sidebar container-7 container-7 container-7 container-7 container-7 container-7 container-8 container-8 container-8 container-8 container-8 container-8  container-9 container-9 container-9 container-9 container-9 container-9 container-10 container-10 container-10 container-10 container-10 container-10'  'sidebar container-11 container-11 container-11 container-11 container-12 container-12 container-12 container-12 container-13 container-13 container-13 container-13 container-14 container-14 container-14 container-14 container-15 container-15 container-15 container-15 container-16 container-16 container-16 container-16'  'sidebar container-17 container-17 container-17 container-18 container-18 container-18 container-19 container-19 container-19 container-20 container-20 container-20 container-21 container-21 container-21 container-22 container-22 container-22 container-23 container-23 container-23 container-24 container-24 container-24';
+  grid-gap: 16px;
+  margin: auto;
   width: 1280px;
   height: 800px;
   border: 1px solid #FFFFFE;
-  margin: auto;
   border-radius: 4px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  padding-top: 16px;
+  padding-right: 40px;
 }
 
 .grid-system .lg-display .lg-type-3 .wrap-container .sidebar {
-  width: 315px;
-  height: 800px;
   border: 2px solid #FFFFFE;
-  border-radius: 4px;
   background-color: #1A2630;
+  margin-top: -16px;
+  border-radius: 4px;
+  width: 315px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: sidebar;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: (100px)[6];
-      grid-template-rows: repeat(6, 100px);
-  -ms-grid-columns: (auto)[24];
-      grid-template-columns: repeat(24, auto);
-  grid-gap: 15px;
-  width: 929px;
-  height: 680px;
-  margin: auto;
-}
-
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-1 {
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-container {
   background-color: #9EAFC1;
   border-radius: 4px;
-  grid-column: span 24;
+  height: 100px;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-2 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 12;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 12;
+  grid-area: container-1;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-3 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 12;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 6;
+  grid-area: container-2;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-4 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 8;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 6;
+  grid-area: container-3;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-5 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 8;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-area: container-4;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-6 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 8;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 4;
+  grid-area: container-5;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-7 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 4;
+  grid-area: container-6;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-8 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-7 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: container-7;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-9 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-8 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-area: container-8;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-10 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-9 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 3;
+  grid-area: container-9;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-11 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-10 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 3;
+  grid-area: container-10;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-12 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-11 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: container-11;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-13 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-12 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-area: container-12;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-14 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-13 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: container-13;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-15 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-14 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 2;
+  grid-area: container-14;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-16 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-15 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 2;
+  grid-area: container-15;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-17 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-16 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 12;
+  -ms-grid-column-span: 2;
+  grid-area: container-16;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-18 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-17 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: container-17;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-19 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-18 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-area: container-18;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-20 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-19 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 3;
+  grid-area: container-19;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-21 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-20 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 3;
+  grid-area: container-20;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-22 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-21 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 14;
+  -ms-grid-column-span: 3;
+  grid-area: container-21;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-23 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-22 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 17;
+  -ms-grid-column-span: 3;
+  grid-area: container-22;
 }
 
-.grid-system .lg-display .lg-type-3 .wrap-container .grid-main .grid-container-24 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-23 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 20;
+  -ms-grid-column-span: 3;
+  grid-area: container-23;
+}
+
+.grid-system .lg-display .lg-type-3 .wrap-container .grid-24 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 23;
+  -ms-grid-column-span: 3;
+  grid-area: container-24;
 }
 
 .grid-system .md-display {
@@ -2392,133 +1730,145 @@ a {
 .grid-system .md-display .md-type-1 .wrap-container {
   width: 1024px;
   height: 633px;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'sidebar container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1'  'sidebar container-2 container-2 container-2 container-2 container-2 container-2 container-3 container-3 container-3 container-3 container-3 container-3 '  'sidebar container-4 container-4 container-4 container-4 container-5 container-5 container-5 container-5 container-6 container-6 container-6 container-6'  'sidebar container-7 container-7 container-7 container-8 container-8 container-8 container-9 container-9 container-9 container-10 container-10 container-10'  'sidebar container-11 container-11 container-12 container-12 container-13 container-13 container-14 container-14 container-15 container-15 container-16 container-16';
+  grid-gap: 16px;
   margin: auto;
   border: 1px solid #FFFFFE;
   border-radius: 4px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  padding-top: 16px;
+  padding-right: 40px;
 }
 
 .grid-system .md-display .md-type-1 .wrap-container .sidebar {
-  width: 126px;
-  height: 633px;
   border: 2px solid #FFFFFE;
-  border-radius: 4px;
   background-color: #1A2630;
+  margin-top: -16px;
+  border-radius: 4px;
+  width: 126px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: sidebar;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: (100px)[5];
-      grid-template-rows: repeat(5, 100px);
-  -ms-grid-columns: (auto)[12];
-      grid-template-columns: repeat(12, auto);
-  grid-gap: 15px;
-  width: 866px;
-  height: 564px;
-  margin: auto;
-}
-
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-1 {
+.grid-system .md-display .md-type-1 .wrap-container .grid-container {
   background-color: #9EAFC1;
   border-radius: 4px;
-  grid-column: span 12;
+  height: 100px;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-2 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .md-display .md-type-1 .wrap-container .grid-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 12;
+  grid-area: container-1;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-3 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .md-display .md-type-1 .wrap-container .grid-2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 6;
+  grid-area: container-2;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-4 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .md-display .md-type-1 .wrap-container .grid-3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 6;
+  grid-area: container-3;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-5 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .md-display .md-type-1 .wrap-container .grid-4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-area: container-4;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-6 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .md-display .md-type-1 .wrap-container .grid-5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 4;
+  grid-area: container-5;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-7 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .md-display .md-type-1 .wrap-container .grid-6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 4;
+  grid-area: container-6;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-8 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .md-display .md-type-1 .wrap-container .grid-7 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: container-7;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-9 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .md-display .md-type-1 .wrap-container .grid-8 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-area: container-8;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-10 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .md-display .md-type-1 .wrap-container .grid-9 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 3;
+  grid-area: container-9;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-11 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 2;
+.grid-system .md-display .md-type-1 .wrap-container .grid-10 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 3;
+  grid-area: container-10;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-12 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 2;
+.grid-system .md-display .md-type-1 .wrap-container .grid-11 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: container-11;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-13 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 2;
+.grid-system .md-display .md-type-1 .wrap-container .grid-12 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-area: container-12;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-14 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 2;
+.grid-system .md-display .md-type-1 .wrap-container .grid-13 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: container-13;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-15 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 2;
+.grid-system .md-display .md-type-1 .wrap-container .grid-14 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 2;
+  grid-area: container-14;
 }
 
-.grid-system .md-display .md-type-1 .wrap-container .grid-main .grid-container-16 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 2;
+.grid-system .md-display .md-type-1 .wrap-container .grid-15 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 2;
+  grid-area: container-15;
+}
+
+.grid-system .md-display .md-type-1 .wrap-container .grid-16 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 12;
+  -ms-grid-column-span: 2;
+  grid-area: container-16;
 }
 
 .grid-system .md-display .md-type-2 {
@@ -2536,132 +1886,144 @@ a {
 .grid-system .md-display .md-type-2 .wrap-container {
   width: 1024px;
   height: 633px;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'sidebar container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1 container-1'  'sidebar container-2 container-2 container-2 container-2 container-2 container-2 container-3 container-3 container-3 container-3 container-3 container-3 '  'sidebar container-4 container-4 container-4 container-4 container-5 container-5 container-5 container-5 container-6 container-6 container-6 container-6'  'sidebar container-7 container-7 container-7 container-8 container-8 container-8 container-9 container-9 container-9 container-10 container-10 container-10'  'sidebar container-11 container-11 container-12 container-12 container-13 container-13 container-14 container-14 container-15 container-15 container-16 container-16';
+  grid-gap: 16px;
   margin: auto;
   border: 1px solid #FFFFFE;
   border-radius: 4px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  padding-top: 16px;
+  padding-right: 40px;
 }
 
 .grid-system .md-display .md-type-2 .wrap-container .sidebar {
-  width: 252px;
-  height: 633px;
   border: 2px solid #FFFFFE;
-  border-radius: 4px;
   background-color: #1A2630;
+  margin-top: -16px;
+  border-radius: 4px;
+  width: 252px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: sidebar;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: (100px)[5];
-      grid-template-rows: repeat(5, 100px);
-  -ms-grid-columns: (auto)[12];
-      grid-template-columns: repeat(12, auto);
-  grid-gap: 15px;
-  width: 740px;
-  height: 564px;
-  margin: auto;
-}
-
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-1 {
+.grid-system .md-display .md-type-2 .wrap-container .grid-container {
   background-color: #9EAFC1;
   border-radius: 4px;
-  grid-column: span 12;
+  height: 100px;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-2 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .md-display .md-type-2 .wrap-container .grid-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 12;
+  grid-area: container-1;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-3 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 6;
+.grid-system .md-display .md-type-2 .wrap-container .grid-2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 6;
+  grid-area: container-2;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-4 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .md-display .md-type-2 .wrap-container .grid-3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 6;
+  grid-area: container-3;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-5 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .md-display .md-type-2 .wrap-container .grid-4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-area: container-4;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-6 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 4;
+.grid-system .md-display .md-type-2 .wrap-container .grid-5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 4;
+  grid-area: container-5;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-7 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .md-display .md-type-2 .wrap-container .grid-6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 4;
+  grid-area: container-6;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-8 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .md-display .md-type-2 .wrap-container .grid-7 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: container-7;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-9 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .md-display .md-type-2 .wrap-container .grid-8 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-area: container-8;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-10 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 3;
+.grid-system .md-display .md-type-2 .wrap-container .grid-9 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 3;
+  grid-area: container-9;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-11 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 2;
+.grid-system .md-display .md-type-2 .wrap-container .grid-10 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 3;
+  grid-area: container-10;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-12 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 2;
+.grid-system .md-display .md-type-2 .wrap-container .grid-11 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: container-11;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-13 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 2;
+.grid-system .md-display .md-type-2 .wrap-container .grid-12 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-area: container-12;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-14 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 2;
+.grid-system .md-display .md-type-2 .wrap-container .grid-13 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: container-13;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-15 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 2;
+.grid-system .md-display .md-type-2 .wrap-container .grid-14 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 2;
+  grid-area: container-14;
 }
 
-.grid-system .md-display .md-type-2 .wrap-container .grid-main .grid-container-16 {
-  background-color: #9EAFC1;
-  border-radius: 4px;
-  grid-column: span 2;
+.grid-system .md-display .md-type-2 .wrap-container .grid-15 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 2;
+  grid-area: container-15;
+}
+
+.grid-system .md-display .md-type-2 .wrap-container .grid-16 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 12;
+  -ms-grid-column-span: 2;
+  grid-area: container-16;
 }
 /*# sourceMappingURL=style.css.map */

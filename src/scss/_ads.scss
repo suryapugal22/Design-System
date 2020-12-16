@@ -3,10 +3,10 @@
     margin-top: 161px;
     margin-bottom: 100px;
     &-title {
-        font-size: 40px;
+        font-size: $fontSize40;
         letter-spacing: 0.64px;
         span {
-            font-size: 128px;
+            font-size: $fontSize128;
             letter-spacing: 2.05px;
             color: $black;
             font-weight: $fontWeightNormal;
@@ -23,12 +23,12 @@
     }
     .design {
         &-title {
-            font-size: 40px;
+            font-size: $fontSize40;
             font-weight: $fontWeightNormal;
             padding: 10px 0;
         }
         &-sub-title {
-            font-size: 24px;
+            font-size: $fontSize24;
             font-weight: $fontWeight300;
             padding: 10px 0;
         }
@@ -36,7 +36,7 @@
             font-weight: $fontWeight300;
             width: 1004px;
             height: 173px;
-            font-size: 32px;
+            font-size: $fontSize32;
             letter-spacing: 0.51px;
             line-height: 44.7px;
             margin: 15px 0;
