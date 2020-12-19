@@ -28,3 +28,43 @@ a {
     align-items: $ai;
     flex-direction: $direction;
 }
+
+h1 {
+    font-size: $fontSize28-83;
+    letter-spacing: 1.73px;
+}
+
+h2 {
+    font-size: $fontSize25-63;
+    letter-spacing: 1.54px;
+}
+
+h3 {
+    font-size: $fontSize22-78;
+    letter-spacing: 1.37px;
+}
+
+h4 {
+    font-size: $fontSize20-25;
+    letter-spacing: 1.22px;
+}
+
+h5 {
+    font-size: $fontSize18;
+    letter-spacing: 1.08px;
+}
+
+p {
+    font-size: $fontSize16;
+    letter-spacing: 0.96px;
+}
+
+small {
+    font-size: $fontSize14-22;
+    letter-spacing: 0.85px;
+}
+
+.tiny {
+    font-size: $fontSize12-64;
+    letter-spacing: 0.76px;
+}

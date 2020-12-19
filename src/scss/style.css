@@ -19,6 +19,46 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 28.83px;
+  letter-spacing: 1.73px;
+}
+
+h2 {
+  font-size: 25.63px;
+  letter-spacing: 1.54px;
+}
+
+h3 {
+  font-size: 22.78px;
+  letter-spacing: 1.37px;
+}
+
+h4 {
+  font-size: 20.25px;
+  letter-spacing: 1.22px;
+}
+
+h5 {
+  font-size: 18px;
+  letter-spacing: 1.08px;
+}
+
+p {
+  font-size: 16px;
+  letter-spacing: 0.96px;
+}
+
+small {
+  font-size: 14.22px;
+  letter-spacing: 0.85px;
+}
+
+.tiny {
+  font-size: 12.64px;
+  letter-spacing: 0.76px;
+}
+
 .ads {
   color: #FFFFFE;
   margin-top: 161px;
@@ -154,21 +194,18 @@ a {
 
 .typography .heading-1-align-model .left-align-text-bold, .typography .heading-1-align-model .center-align-text-bold, .typography .heading-1-align-model .right-align-text-bold, .typography .heading-1-align-model .heading .paragraph-align-model .center-align-text-bold, .typography .heading .paragraph-align-model .heading-1-align-model .center-align-text-bold, .typography .heading-1-align-model .heading .paragraph-align-model .right-align-text-bold, .typography .heading .paragraph-align-model .heading-1-align-model .right-align-text-bold, .typography .heading-1-align-model .heading .small-align-model .center-align-text-bold, .typography .heading .small-align-model .heading-1-align-model .center-align-text-bold, .typography .heading-1-align-model .heading .small-align-model .right-align-text-bold, .typography .heading .small-align-model .heading-1-align-model .right-align-text-bold, .typography .heading-1-align-model .heading .tiny-align-model .center-align-text-bold, .typography .heading .tiny-align-model .heading-1-align-model .center-align-text-bold, .typography .heading-1-align-model .heading .tiny-align-model .right-align-text-bold, .typography .heading .tiny-align-model .heading-1-align-model .right-align-text-bold {
   width: 324px;
-  letter-spacing: 1.73px;
   font-weight: 600;
   padding: 20px 0;
 }
 
 .typography .heading-1-align-model .left-align-text-normal, .typography .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .right-align-text-normal, .typography .heading-1-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-1-align-model .right-align-text-normal, .typography .heading-1-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-1-align-model .right-align-text-normal, .typography .heading-1-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-1-align-model .center-align-text-normal, .typography .heading-1-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-1-align-model .right-align-text-normal {
   width: 324px;
-  letter-spacing: 1.73px;
   font-weight: normal;
   padding: 20px 0;
 }
 
 .typography .heading-1-align-model .left-align-text-lighter, .typography .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-1-align-model .right-align-text-lighter, .typography .heading-1-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-1-align-model .center-align-text-lighter, .typography .heading-1-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-1-align-model .right-align-text-lighter {
   width: 324px;
-  letter-spacing: 1.73px;
   font-weight: 300;
   padding: 20px 0;
 }
@@ -214,24 +251,18 @@ a {
 
 .typography .heading-2-align-model .left-align-text-bold, .typography .heading-2-align-model .center-align-text-bold, .typography .heading-2-align-model .right-align-text-bold, .typography .heading-2-align-model .heading .paragraph-align-model .center-align-text-bold, .typography .heading .paragraph-align-model .heading-2-align-model .center-align-text-bold, .typography .heading-2-align-model .heading .paragraph-align-model .right-align-text-bold, .typography .heading .paragraph-align-model .heading-2-align-model .right-align-text-bold, .typography .heading-2-align-model .heading .small-align-model .center-align-text-bold, .typography .heading .small-align-model .heading-2-align-model .center-align-text-bold, .typography .heading-2-align-model .heading .small-align-model .right-align-text-bold, .typography .heading .small-align-model .heading-2-align-model .right-align-text-bold, .typography .heading-2-align-model .heading .tiny-align-model .center-align-text-bold, .typography .heading .tiny-align-model .heading-2-align-model .center-align-text-bold, .typography .heading-2-align-model .heading .tiny-align-model .right-align-text-bold, .typography .heading .tiny-align-model .heading-2-align-model .right-align-text-bold {
   width: 324px;
-  font-size: 25.63px;
-  letter-spacing: 1.54px;
   font-weight: 600;
   padding: 20px 0;
 }
 
 .typography .heading-2-align-model .left-align-text-normal, .typography .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .right-align-text-normal, .typography .heading-2-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-2-align-model .right-align-text-normal, .typography .heading-2-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-2-align-model .right-align-text-normal, .typography .heading-2-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-2-align-model .center-align-text-normal, .typography .heading-2-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-2-align-model .right-align-text-normal {
   width: 324px;
-  font-size: 25.63px;
-  letter-spacing: 1.54px;
   font-weight: normal;
   padding: 20px 0;
 }
 
 .typography .heading-2-align-model .left-align-text-lighter, .typography .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-2-align-model .right-align-text-lighter, .typography .heading-2-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-2-align-model .center-align-text-lighter, .typography .heading-2-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-2-align-model .right-align-text-lighter {
   width: 324px;
-  font-size: 25.63px;
-  letter-spacing: 1.54px;
   font-weight: 300;
   padding: 20px 0;
 }
@@ -276,26 +307,20 @@ a {
 }
 
 .typography .heading-3-align-model .left-align-text-bold, .typography .heading-3-align-model .center-align-text-bold, .typography .heading-3-align-model .right-align-text-bold, .typography .heading-3-align-model .heading .paragraph-align-model .center-align-text-bold, .typography .heading .paragraph-align-model .heading-3-align-model .center-align-text-bold, .typography .heading-3-align-model .heading .paragraph-align-model .right-align-text-bold, .typography .heading .paragraph-align-model .heading-3-align-model .right-align-text-bold, .typography .heading-3-align-model .heading .small-align-model .center-align-text-bold, .typography .heading .small-align-model .heading-3-align-model .center-align-text-bold, .typography .heading-3-align-model .heading .small-align-model .right-align-text-bold, .typography .heading .small-align-model .heading-3-align-model .right-align-text-bold, .typography .heading-3-align-model .heading .tiny-align-model .center-align-text-bold, .typography .heading .tiny-align-model .heading-3-align-model .center-align-text-bold, .typography .heading-3-align-model .heading .tiny-align-model .right-align-text-bold, .typography .heading .tiny-align-model .heading-3-align-model .right-align-text-bold {
-  font-size: 22.78px;
   font-weight: 600;
   padding: 20px 0;
-  letter-spacing: 1.37px;
   width: 324px;
 }
 
 .typography .heading-3-align-model .left-align-text-normal, .typography .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .right-align-text-normal, .typography .heading-3-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-3-align-model .right-align-text-normal, .typography .heading-3-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-3-align-model .right-align-text-normal, .typography .heading-3-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-3-align-model .center-align-text-normal, .typography .heading-3-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-3-align-model .right-align-text-normal {
-  font-size: 22.78px;
   font-weight: normal;
   padding: 20px 0;
-  letter-spacing: 1.37px;
   width: 324px;
 }
 
 .typography .heading-3-align-model .left-align-text-lighter, .typography .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-3-align-model .right-align-text-lighter, .typography .heading-3-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-3-align-model .center-align-text-lighter, .typography .heading-3-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-3-align-model .right-align-text-lighter {
   font-size: 22.78px;
-  font-weight: 300;
   padding: 20px 0;
-  letter-spacing: 1.37px;
   width: 324px;
 }
 
@@ -336,25 +361,19 @@ a {
 }
 
 .typography .heading-4-align-model .left-align-text-bold, .typography .heading-4-align-model .center-align-text-bold, .typography .heading-4-align-model .right-align-text-bold, .typography .heading-4-align-model .heading .paragraph-align-model .center-align-text-bold, .typography .heading .paragraph-align-model .heading-4-align-model .center-align-text-bold, .typography .heading-4-align-model .heading .paragraph-align-model .right-align-text-bold, .typography .heading .paragraph-align-model .heading-4-align-model .right-align-text-bold, .typography .heading-4-align-model .heading .small-align-model .center-align-text-bold, .typography .heading .small-align-model .heading-4-align-model .center-align-text-bold, .typography .heading-4-align-model .heading .small-align-model .right-align-text-bold, .typography .heading .small-align-model .heading-4-align-model .right-align-text-bold, .typography .heading-4-align-model .heading .tiny-align-model .center-align-text-bold, .typography .heading .tiny-align-model .heading-4-align-model .center-align-text-bold, .typography .heading-4-align-model .heading .tiny-align-model .right-align-text-bold, .typography .heading .tiny-align-model .heading-4-align-model .right-align-text-bold {
-  font-size: 20.25px;
   font-weight: 600;
-  letter-spacing: 1.22px;
   padding: 20px 0;
   width: 324px;
 }
 
 .typography .heading-4-align-model .left-align-text-normal, .typography .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .right-align-text-normal, .typography .heading-4-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-4-align-model .right-align-text-normal, .typography .heading-4-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-4-align-model .right-align-text-normal, .typography .heading-4-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-4-align-model .center-align-text-normal, .typography .heading-4-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-4-align-model .right-align-text-normal {
-  font-size: 20.25px;
   font-weight: normal;
-  letter-spacing: 1.22px;
   padding: 20px 0;
   width: 324px;
 }
 
 .typography .heading-4-align-model .left-align-text-lighter, .typography .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-4-align-model .right-align-text-lighter, .typography .heading-4-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-4-align-model .center-align-text-lighter, .typography .heading-4-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-4-align-model .right-align-text-lighter {
-  font-size: 20.25px;
   font-weight: 300;
-  letter-spacing: 1.22px;
   padding: 20px 0;
   width: 324px;
 }
@@ -399,26 +418,20 @@ a {
 }
 
 .typography .heading-5-align-model .left-align-text-bold, .typography .heading-5-align-model .center-align-text-bold, .typography .heading-5-align-model .right-align-text-bold, .typography .heading-5-align-model .heading .paragraph-align-model .center-align-text-bold, .typography .heading .paragraph-align-model .heading-5-align-model .center-align-text-bold, .typography .heading-5-align-model .heading .paragraph-align-model .right-align-text-bold, .typography .heading .paragraph-align-model .heading-5-align-model .right-align-text-bold, .typography .heading-5-align-model .heading .small-align-model .center-align-text-bold, .typography .heading .small-align-model .heading-5-align-model .center-align-text-bold, .typography .heading-5-align-model .heading .small-align-model .right-align-text-bold, .typography .heading .small-align-model .heading-5-align-model .right-align-text-bold, .typography .heading-5-align-model .heading .tiny-align-model .center-align-text-bold, .typography .heading .tiny-align-model .heading-5-align-model .center-align-text-bold, .typography .heading-5-align-model .heading .tiny-align-model .right-align-text-bold, .typography .heading .tiny-align-model .heading-5-align-model .right-align-text-bold {
-  font-size: 18px;
   font-weight: 600;
-  letter-spacing: 1.08px;
   padding: 20px 0;
   width: 324px;
 }
 
 .typography .heading-5-align-model .left-align-text-normal, .typography .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .right-align-text-normal, .typography .heading-5-align-model .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .heading .paragraph-align-model .right-align-text-normal, .typography .heading .paragraph-align-model .heading-5-align-model .right-align-text-normal, .typography .heading-5-align-model .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .heading .small-align-model .right-align-text-normal, .typography .heading .small-align-model .heading-5-align-model .right-align-text-normal, .typography .heading-5-align-model .heading .tiny-align-model .center-align-text-normal, .typography .heading .tiny-align-model .heading-5-align-model .center-align-text-normal, .typography .heading-5-align-model .heading .tiny-align-model .right-align-text-normal, .typography .heading .tiny-align-model .heading-5-align-model .right-align-text-normal {
-  font-size: 18px;
   font-weight: normal;
-  letter-spacing: 1.08px;
   padding: 20px 0;
   width: 324px;
 }
 
 .typography .heading-5-align-model .left-align-text-lighter, .typography .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .heading .paragraph-align-model .right-align-text-lighter, .typography .heading .paragraph-align-model .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .heading .small-align-model .right-align-text-lighter, .typography .heading .small-align-model .heading-5-align-model .right-align-text-lighter, .typography .heading-5-align-model .heading .tiny-align-model .center-align-text-lighter, .typography .heading .tiny-align-model .heading-5-align-model .center-align-text-lighter, .typography .heading-5-align-model .heading .tiny-align-model .right-align-text-lighter, .typography .heading .tiny-align-model .heading-5-align-model .right-align-text-lighter {
-  font-size: 18px;
   width: 324px;
   font-weight: 300;
-  letter-spacing: 1.08px;
   padding: 20px 0;
 }
 
@@ -462,24 +475,18 @@ a {
 }
 
 .typography .heading .paragraph-align-model .left-align-text-bold, .typography .heading .paragraph-align-model .center-align-text-bold, .typography .heading .paragraph-align-model .right-align-text-bold {
-  font-size: 16px;
-  letter-spacing: 0.96px;
   width: 325px;
   font-weight: 600;
   padding: 20px 0;
 }
 
 .typography .heading .paragraph-align-model .left-align-text-normal, .typography .heading .paragraph-align-model .center-align-text-normal, .typography .heading .paragraph-align-model .right-align-text-normal {
-  font-size: 16px;
-  letter-spacing: 0.96px;
   width: 325px;
   font-weight: normal;
   padding: 20px 0;
 }
 
 .typography .heading .paragraph-align-model .left-align-text-lighter, .typography .heading .paragraph-align-model .center-align-text-lighter, .typography .heading .paragraph-align-model .right-align-text-lighter {
-  font-size: 16px;
-  letter-spacing: 0.96px;
   width: 325px;
   font-weight: 300;
   padding: 20px 0;
@@ -526,27 +533,21 @@ a {
 
 .typography .heading .small-align-model .left-align-text-bold, .typography .heading .small-align-model .center-align-text-bold, .typography .heading .small-align-model .right-align-text-bold {
   display: inline-block;
-  font-size: 14.22px;
   width: 325px;
-  letter-spacing: 0.85px;
   padding: 20px 0;
   font-weight: 600;
 }
 
 .typography .heading .small-align-model .left-align-text-normal, .typography .heading .small-align-model .center-align-text-normal, .typography .heading .small-align-model .right-align-text-normal {
   display: inline-block;
-  font-size: 14.22px;
   width: 325px;
-  letter-spacing: 0.85px;
   padding: 20px 0;
   font-weight: normal;
 }
 
 .typography .heading .small-align-model .left-align-text-lighter, .typography .heading .small-align-model .center-align-text-lighter, .typography .heading .small-align-model .right-align-text-lighter {
   display: inline-block;
-  font-size: 14.22px;
   width: 325px;
-  letter-spacing: 0.85px;
   padding: 20px 0;
   font-weight: 300;
 }
@@ -590,8 +591,6 @@ a {
 
 .typography .heading .tiny-align-model .left-align-text-bold, .typography .heading .tiny-align-model .center-align-text-bold, .typography .heading .tiny-align-model .right-align-text-bold {
   display: inline-block;
-  font-size: 12.64px;
-  letter-spacing: 0.76px;
   width: 325px;
   padding: 20px 0;
   font-weight: 600;
